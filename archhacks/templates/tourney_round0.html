@@ -1,0 +1,113 @@
+{% extends "layout.html" %}
+
+{% block title %}Cornhole Tournament{% endblock %}
+
+{% block body_class %}tourney{% endblock %}
+
+{% block content %}
+
+<a href="/profile">
+    <button class="home-signin-signup">Profile</button>
+</a>
+
+<br>
+
+{% if user.is_admin and tourney_started %}
+    <a href="/begin_bracket_style" id="begin_bracket">
+        <button class="home-signin-signup">Advance Round</button>
+    </a>
+{% endif %}
+
+<h2>Cornhole Tournament</h2>
+
+{% if not tourney_started %}
+<form action="{{ url_for('tourney') }}" method="post">
+    {% if user.tourney_position > 0 %}
+        {{ tourney_form.unregister(id="unregister") }}
+    {% else %}
+        {{ tourney_form.register }}
+    {% endif %}
+</form>
+    {% if user.is_admin %}
+    <br>
+    <a href="/start_tourney">
+        <button class=""home-signin-signup>Start Tournament!</button>
+    </a>
+    <br>
+    {% endif %}
+{% endif %}
+
+{{ message }}
+
+{% for error in tourney_form.register.errors %}
+     <div class="flash">{{ error }}</div>
+{% endfor %}
+
+{% for error in tourney_form.unregister.errors %}
+     <div class="flash">{{ error }}</div>
+{% endfor %}
+
+{% if user.is_admin and tourney_started and reg_users|length > 0 %}
+    <div>
+        <p class="admin-controls">Admin Controls:</p>
+        <form action="{{ url_for('set_tourney_score') }}" method="POST" autocomplete="off">
+            <input type="text" name="email_entry" placeholder="Player's email" value="" required>
+            <input type="number" name="score" placeholder="Score" required>
+            <input type="submit" name="admin_action" value="Set Score">
+        </form>
+    </div>
+{% endif %}
+
+<h3>Current Round: {{ round }}</h3>
+
+<div class="line_container">
+    <div class="line_header">
+        <h3>People in line:</h3>
+    </div>
+    {% for reg_user in reg_users %}
+        <div class ="user">
+            <span class="user-name{{user.is_admin}}">{{ reg_user.firstname }} {{ reg_user.lastname }}</span>
+                <span class="user-email">- {{ reg_user.email }}</span>
+        </div>
+    {% endfor %}
+</div>
+
+{% if tourney_started %}
+<div class="line_container" id="already-played">
+    <div class="line_header">
+        <h3>Already played:</h3>
+    </div>
+    {% for scored_user in scored_users %}
+        <div class="user">
+            <span class="user_name">{{ scored_user.firstname }} {{ scored_user.lastname }}</span>
+            <span class="tourney_score">Score: {{ scored_user.tourney_score }}</span>
+        </div>
+    {% endfor %}
+</div>
+{% endif %}
+
+<script>
+    function confirm_unregister(e) {
+        if (!confirm("Are you sure you want to unregister? You will be placed at the back of the line if you re-join")) {
+            e.preventDefault();
+        }
+    }
+
+    function confirm_begin_bracket(e) {
+         if (!confirm("Confirm begin-bracket")) {
+            e.preventDefault();
+        }
+    }
+
+    $("#unregister").on("click", function(e) {
+        confirm_unregister(e);
+    });
+
+    $("#begin_bracket").on("click", function(e) {
+        confirm_begin_bracket(e);
+    });
+</script>
+
+
+
+{% endblock %}

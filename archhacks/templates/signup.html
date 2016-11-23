@@ -1,0 +1,56 @@
+{% extends "app_home.html" %}
+
+{% block title %}
+Sign Up
+{% endblock %}
+
+{% block body_class %}signup{% endblock %}
+
+{% block app_home_link %}/app_home{% endblock app_home_link %}
+
+{% block form_content %}
+  <div class="signup-form">
+    {% for message in form.firstname.errors %}
+      <div class="flash">{{ message }}</div>
+    {% endfor %}
+     
+    {% for message in form.lastname.errors %}
+      <div class="flash">{{ message }}</div>
+    {% endfor %}
+     
+    {% for message in form.email.errors %}
+      <div class="flash">{{ message }}</div>
+    {% endfor %}
+     
+    {% for message in form.school.errors %}
+      <div class="flash">{{ message }}</div>
+    {% endfor %}
+
+    {% for message in form.password.errors %}
+      <div class="flash">{{ message }}</div>
+    {% endfor %}
+     
+    <form action="{{ url_for('signup') }}" method=post>
+      {{ form.hidden_tag() }}
+       
+      <div class="label-wrapper">{{ form.firstname.label }}</div>
+      {{ form.firstname }}
+       
+      <div class="label-wrapper">{{ form.lastname.label }}</div>
+      {{ form.lastname }}
+       
+      <div class="label-wrapper">{{ form.email.label }}</div>
+      {{ form.email }}
+      <p class="email-note">You must use the same email you used for your ArchHacks application.</p>
+
+      <div class="label-wrapper">{{ form.school.label }}</div>
+      {{ form.school }}
+       
+      <div class="label-wrapper">{{ form.password.label }}</div>
+      {{ form.password }}
+       
+      {{ form.submit }}
+    </form>
+  </div>
+     
+{% endblock form_content %}

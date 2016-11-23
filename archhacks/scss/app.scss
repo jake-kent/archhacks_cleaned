@@ -1,0 +1,525 @@
+/* Device-targeted breakpoints */
+$sm_phone: "all and (max-width: 450px)";
+$phone: "all and (max-width: 768px)";
+$tablet: "all and (max-width: 1023px)";
+$desktop: "all and (min-width: 1024px)";
+
+/* Colors */
+$light-gray: rgba(128, 128, 128, 0.6);
+$button-pink: rgba(140, 55, 82, 0.956863);
+$button-hover-pink: rgba(184, 71, 107, 0.956863);
+$input-pink: #d9a4b4;
+$error-pink: #fee8e5;
+
+body {
+	width: 100%;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	overflow: visible !important;
+	margin: 0;
+	padding: 0;
+}
+h1{
+	font-family: 'Nunito', sans-serif;
+	font-size: 50px;
+	font-weight: 300;line-height: 17.5px;
+	margin-bottom: 5px;
+	@media #{$tablet} {
+		font-size: 25px;
+	}
+}
+h2{
+	font-weight: 600;
+	font-size: 17.5px;
+	letter-spacing: 4px;
+}
+h3{
+	font-size: 15px;
+	text-transform: uppercase;
+}
+h4, h5, li{
+	color: #252038;
+}
+p{
+	font-size: 12.5px;
+}
+a {
+	text-decoration: none !important;
+}
+
+/* App Home General Styles */
+body:not(.app_home){
+	.home-logo {
+		img {
+			margin: 10px 42.5%;
+			width: 15%;
+		}
+	}
+	#welcome-mission {
+		text-align: center;
+		line-height: 1.5;
+		font-size: 17.5px !important;
+		text-transform: uppercase;
+		@media #{$tablet} {
+			font-weight: normal;
+		}
+	}
+}
+
+.home-signin-signup {
+	margin: 0px auto;
+	width: 60%;
+	height: 60px;
+	max-width: 400px;
+	@media #{$phone} {
+
+	}
+	button {
+		background-color: $button-pink;
+		color: white;
+		padding: 20px 32px;
+		font-weight: 600;
+		letter-spacing: 6px;
+		text-transform: uppercase;
+		border: $light-gray;
+		margin-top: 50px;
+		width: 170px;
+		@media #{$phone} {
+			width: 50%;
+		}
+		&:hover {
+			background-color: $button-hover-pink;
+		}
+	}
+	.home-signin {
+		float: left;
+	}
+	.home-signup {
+		float: right;
+	}
+	@media #{$phone} {
+		max-width: none;
+		width: 100%;
+		button {
+			width: 50%;
+			margin-top: 20px;
+			font-size: 14px;
+		}
+	}
+	&:after {
+		visibility: hidden;
+		display: block;
+		font-size: 0;
+		content: " ";
+		clear: both;
+		height: 0;
+	}
+}
+
+/* General Form Styles */
+
+/* Error */
+.flash {
+	text-align: center;
+	padding: 10px 0;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	color: red;
+	background-color: $error-pink;
+}
+
+/* Form */
+form {
+	float: left;
+	text-align: center;
+	width: 100%;
+	label, input:not([type='submit']) {
+		width: 50%;
+		margin-left: 25%;
+		margin-right: 25%;
+		border: 0px;
+		border-bottom: 1px solid $input-pink;
+		@media #{$phone} {
+			width: 80%;
+			margin-left: 10%;
+			margin-right: 10%;
+		}
+	}
+	input:not([type='submit']) {
+		font-weight: bold;
+		padding: 10px 0px;
+		outline: none;
+		margin-bottom: 20px;
+	}
+	.label-wrapper {
+		text-align: left;
+	}
+	input[type="submit"] {
+		text-align: center;
+		background-color: $button-pink;
+		color: white;
+		padding: 20px 32px;
+		font-weight: 600;
+		letter-spacing: 4px;
+		text-transform: uppercase;
+		border: $light-gray;
+		margin-top: 50px;
+		display: inline-block;
+		@media #{$phone} {
+			margin-top: 20px;
+		}
+		&:hover{
+			background-color: $button-hover-pink;
+		}
+	}
+}
+
+/* App Home Page */
+body.app_home{
+	height: 100%;
+	height: 100vh;
+	background: url(../images/welcome-pane-background.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	.home-logo {
+		margin: 20px auto;
+		text-align: center;
+		img {
+			padding-top: 5%;
+			width: 40%;
+			max-width: 500px;
+			display: inline-block;
+			@media #{$tablet} {
+				padding-top: 10%;
+				width: 50%;
+			}
+			@media #{$phone} {
+				width: 60%;
+			}
+			@media #{$sm_phone} {
+				width: 80%;
+			}
+			
+		}
+		#welcome-mission {
+			margin-top: 8vh;
+			text-align: center;
+			line-height: 1.5;
+			font-size: 17.5px !important;
+			text-transform: uppercase;
+			@media #{$tablet} {
+				font-weight: normal;
+			}
+		}
+	}
+}
+
+/* App Registration Forms */
+body.signin, body.signup {
+	.signin-form, .signup-form {
+		padding-top: 50px;
+		float: left;
+		width: 100%;
+	}
+}
+body.signin {
+	.home-signin {
+		background-color: $button-hover-pink;
+	}
+	.forgot-password-link a {
+		color: black;
+		text-align: center;
+		&:hover {
+			font-weight: bold;
+		}
+		p {
+			width: 150px;
+			display: inline-block;
+		}
+	}
+}
+body.signup {
+	.home-signup {
+		background-color: $button-hover-pink;
+	}
+	input[type="submit"] {
+		margin-bottom: 50px;
+	}
+	#email {
+		margin-bottom: 10px;
+	}
+	.email-note {
+		margin-top: 0px;
+		color: red;
+		width: 50%;
+		margin-left: 25%;
+		margin-right: 25%;
+		text-align: left;
+		@media #{$phone} {
+			width: 80%;
+			margin-left: 10%;
+			margin-right: 10%;
+		}
+	}
+}
+
+body.profile {
+	.profile-header {
+		text-align: center;
+	}
+	.home-signin-signup {
+		display: none;
+	}
+	.profile-label, .profile-field {
+		width: 50%;
+		margin-left: 25%;
+		margin-right: 25%;
+		border: 0px;
+		@media #{$phone} {
+			width: 80%;
+			margin-left: 10%;
+			margin-right: 10%;
+		}
+	}
+	.profile-field {
+		border-bottom: 1px solid $input-pink;
+		font-weight: bold;
+		outline: none;
+		margin-bottom: 20px;
+		&:last-child {
+			margin-bottom: 0px;
+		}
+	}
+	#profile-twitter-handle {
+		#add, #edit {
+			margin-top: 5px;
+    	letter-spacing: 0;
+    	padding: 10px 16px;
+    	text-transform: none;
+    	margin-bottom: 20px;
+		}
+		input[type="text"]{
+			@media #{$phone} {
+    		width: 100%;
+    		margin-left: 0px;
+    		margin-right: 0px;
+    	}
+		}
+	}
+	input[type="text"]{
+		border-bottom: 1px solid $input-pink;
+		font-weight: bold;
+		outline: none;
+		margin-top: 0px !important;
+		padding: 0px !important;
+		margin-bottom: 0px;
+		&:last-child {
+			margin-bottom: 0px;
+		}
+		width: 100%;
+		margin-left: 0%;
+		margin-right: 0%;
+  	@media #{$phone} {
+    	width: 80%;
+    	margin-left: 10%;
+    	margin-right: 10%;
+    }
+    font-size: 12.5px;
+	}
+	.profile-signout-wrapper {
+		width: 100%;
+		float: left;
+		.profile-signout {
+			width: 20%;
+			max-width: 200px;
+			margin: auto;
+			@media #{$phone} {
+				width: 30%;
+			}
+			@media #{$sm_phone} {
+				width: 50%;
+			}
+			background-color: $button-pink;
+			color: white;
+			padding: 20px 32px;
+			font-weight: 600;
+			letter-spacing: 6px;
+			text-transform: uppercase;
+			border: $light-gray;
+			margin-top: 10px;
+			text-align: center;
+			cursor: pointer;
+			&:hover {
+				background-color: $button-hover-pink;
+			}
+		}
+	}
+	.cornhole-section-header {
+		display: none;
+		margin-top: 50px;
+		text-align: center;
+	}
+	.profile-tourney-link {
+		width: 100%;
+		margin-left: 0%;
+		margin-right: 0%;
+		margin-bottom: 100px;
+		text-align: center;
+		a {
+			text-decoration: none;
+		}
+		@media #{$phone} {
+			width: 80%;
+			margin-left: 10%;
+			margin-right: 10%;
+		}
+	}
+	.change_pass {
+		text-align: center;
+	}
+	#profile-confirm-attendance, #profile-twitter-handle {
+		float: left;
+		width: 50%;
+		margin-left: 25%;
+		margin-right: 25%;
+		text-align: left;
+		@media #{$phone} {
+			width: 80%;
+			margin-left: 10%;
+			margin-right: 10%;
+		}
+		input {
+			margin-top: 5px;
+			letter-spacing: 0;
+			padding: 10px 16px;
+			text-transform: none;
+		}
+		#attending + #not_attending {
+			margin-left: 50px;
+		}
+	}
+}
+
+body.change_password {
+	.home-signin-signup {
+		display: none;
+	}
+	.change-pass-header {
+		text-align: center;
+	}
+}
+body.forgot_password {
+	.home-signin-signup {
+		display: none;
+	}
+	.forgot-password-header {
+		text-align: center;
+	}
+	.forgot-password-email-sent {
+		margin-top: 50px;
+		text-align: center;
+	}
+}
+body.tourney {
+
+	background: url(../images/welcome-pane-background.jpg) no-repeat center center;
+	margin-top: 8vh;
+	text-align: center;
+	line-height: 1.5;
+	font-size: 17.5px !important;
+  background-size: cover;
+  height: 100vh;
+
+	button, input[type="submit"] {
+		background-color: rgba(140, 55, 82, 0.95686);
+		border: rgba(128, 128, 128, 0.6);
+		color: white;
+		font-weight: 600;
+		letter-spacing: 6px;
+		font-size: 14px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 16px;
+		padding-right: 16px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		width: 200px;
+		text-transform: uppercase;
+	}
+
+	.user {
+			display: block;
+			margin-bottom: 5px;
+			margin-top: 5px;
+			text-align: center;
+			margin-left: 10%;
+			margin-right: 10%;
+			width: 80%;
+			background-color: #9494b8;
+			color: white;
+			letter-spacing: 3px;
+		    background-color: rgba(39, 39, 130, 0.4);
+		    padding: 10px;
+
+			.admin-controls {
+				background-color: white;
+				color: black;
+			}
+			form {
+				background-color: white;
+				border: 1px solid black;
+			}
+	}
+
+	.curr_game {
+		display: block;
+		margin-bottom: 10px;
+	}
+
+	#curr_game_user {
+		padding: 5px 20px 5px 20px;
+		display: inline;
+		float: left;
+	}
+
+	.vs {
+		display: inline;
+		color: red;
+	}
+
+	.line_container {
+
+		display: block;
+		text-align: center;
+		float: left;
+		width: 100%;
+		input[type="text"] {
+			width: 100px;
+			color: black;
+			width: 90%;
+			margin-left: 5%;
+			margin-bottom: 0px;
+		}
+
+		input[type="number"] {
+			width: 100px;
+			color: black;
+			width: 90%;
+			margin-left: 5%;
+			margin-bottom: 0px;
+		}
+	}
+	#already-played {
+		width: 100%;
+		text-align: center;
+		p {
+			width: 100%;
+			text-align: center;
+		}
+	}
+}

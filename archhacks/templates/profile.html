@@ -1,0 +1,83 @@
+{% extends "app_home.html" %}
+
+{% block title %}
+Profile
+{% endblock %}
+
+{% block body_class %}profile{% endblock %}
+
+{% block app_home_link %}/app_home{% endblock app_home_link %}
+
+{% block profile_content %}
+<div class="profile-content">
+	<h2 class="profile-header">User Profile</h2>
+	<div class="profile-group">
+		<p class="profile-label">Name:</p>
+		<p class="profile-field">{{user.name()}}</p>
+	</div>
+	<div class="profile-group">
+		<p class="profile-label">Email:</p>
+		<p class="profile-field">{{user.email}}</p>
+	</div>
+	<div class="profile-group">
+		<p class="profile-label">What's Your Twitter Handle?</p>
+	</div>
+	{% for message in twitter_handle.twitter_handle_field.errors %}
+      <div class="flash">{{ message }}</div>
+    {% endfor %}
+	<form id="profile-twitter-handle" action = "{{ url_for('profile') }}" method = "post">
+	{{ twitter_handle.hidden_tag() }}
+	<input id="twitter_handle_field" name="twitter_handle_field" type="text" value="{{ user.twitter_handle }}">
+    {% if user.twitter_handle %}
+        {{ twitter_handle.edit }}
+    {% else %}
+        {{ twitter_handle.add }}
+    {% endif %}
+	</form>
+	<div class="profile-group">
+		<p class="profile-label">School:</p>
+		<p class="profile-field">{{user.school}}</p>
+	</div>
+	<div class="profile-group">
+		<p class="profile-label">Application Status:</p>
+		<p class="profile-field">{{user.application_status}}</p>
+	</div>
+	{% if user.application_status == "Accepted" %}
+	<div class="profile-group">
+		<p class="profile-label">Are You Attending?</p>
+		<p class="profile-field">{{user.attending}}</p>
+	</div>
+
+	<form id="profile-confirm-attendance" action = "{{ url_for('confirm_attendance') }}" method = "post">
+	{{ form.hidden_tag() }}
+    {% if user.attending == "Attending" %}
+        {{ form.not_attending }}
+    {% elif user.attending == "No Response" %}
+        {{ form.attending }}{{ form.not_attending }}
+    {% else %}
+        {{ form.attending }}
+    {% endif %}
+	</form>
+	{% endif %}
+	<div class="profile-signout-wrapper">
+		<div class="profile-signout">Sign Out</div>
+	</div>
+	<div class="change_pass">
+		<a href="/change_password">Want to change your password?</a>
+	</div>
+	<h2 class="cornhole-section-header">Cornhole Tourney</h2>
+	{% if user.tourney_position %}
+	<div class="profile-tourney-link">
+		<hr>
+		<h3>You are registered for the cornhole tournament!</h3>
+		<a href = "/tourney"><span>Click here to check your place in line!</span></a>
+	</div>
+	{% else %}
+	<div class="profile-tourney-link">
+		<hr>
+		<h3>You are not yet registered for the cornhole tournament.</h3>
+		<a href = "/tourney"><span>Click here to register!</span></a>
+	</div>
+	{% endif %}
+</div>
+{% endblock profile_content %}

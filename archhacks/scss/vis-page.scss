@@ -1,0 +1,170 @@
+$phone: "all and (max-width: 400px)";
+$phone_screen: "all and (max-device-width: 768px)";
+$tablet: "all and (max-width: 768px)";
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    width: 100%;
+}
+#header {
+    a {
+        display: block;
+        width: 15%;
+        margin: 10px 42.5%;
+    }
+    img {
+        width: 100%;
+    }
+    #title{
+        text-align: center;
+        margin-top: 10px;
+        font-weight: 600;
+        font-size: 14px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }
+    .data-vis-description {
+        text-align: center;
+        width: 80%;
+        margin: 10px auto;
+        font-size: 14px;
+        margin-bottom: 60px;
+    }
+}
+
+#applications-by-school{
+    margin: 20px 5%;
+    width: 90%;
+    .school_row{
+        width: 100%;
+        margin-bottom: 10px;
+        .school{
+            float: left;
+            height: 150px;
+            @media #{$tablet}{
+                width: 47.6%;
+            }
+            @media #{$phone}{
+                width: 100%;
+            }
+            .school_title{
+                font-size: 12px;
+                text-align: center;
+                height: 25px;
+                font-weight: 300;
+            }
+            div.school-outer{
+                height: 70px;
+                margin: 10px auto 5px auto;
+                background-color: gainsboro;
+                width: 70px;
+                border-radius: 50%;
+                text-align: center;
+                &:hover{
+                    .school-hover{
+                        display: block;
+                    }
+                }
+                &:active{
+                    .school-hover{
+                        display: block;
+                    }
+                }
+                div.school-inner{
+                    background: black;
+                    display: inline-block;
+                    vertical-align: middle;
+                    border-radius: 50%;
+                    img{
+                        height: 78px;
+                        position: relative;
+                        top: -4px;
+                        left: -4px;
+                    }
+                }
+                .school-hover{
+                    height: 100%;
+                    width: 100%;
+                    position: relative;
+                    top: -70px;
+                    display: none;
+                    background: rgba(199, 71, 97, 0.7);
+                    @media #{$phone_screen}{
+                        display: block;
+                        background: rgba(199, 71, 97, 0.4);
+                    }
+                    border-radius: 50%;
+                    .school-hover-text{
+                        position: relative;
+                        top: 17px;
+                        color: white;
+                        text-transform: uppercase;
+                        div.val{
+                            font-size: 36px;
+                            font-weight: 400;
+                        }
+                        div.apps{
+                            font-size: 8px;
+                        }
+                    }
+                }
+            }
+            div.school-outer:before {
+                content: ' ';
+                display: inline-block;
+                vertical-align: middle;
+                height: 100%;
+                margin: 0 auto;
+            }
+            .school_footer.has_text{
+                font-size: 8px;
+                text-align: center;
+                text-transform: uppercase;
+                font-weight: 600;
+                width: 100px;
+                margin: 0 auto;
+                height: 40px;
+                top: -20px;
+                span:nth-of-type(-n+7){
+                    color: #c74761;
+                }
+            }
+        }
+    }
+}
+
+.data-vis-description-disclaimer {
+    text-align: center;
+    width: 80%;
+    margin: 0px auto;
+    font-style: italic;
+    font-size: 10px;
+
+}
+.map-header {
+    .map-title {
+        margin-top: 60px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 14px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }
+    .map-vis-description {
+        text-align: center;
+        width: 80%;
+        margin: 10px auto;
+        font-size: 14px;
+        margin-bottom: 60px;
+    }
+}
+#map_div {
+    max-height: 95vh;
+    height: 50vw;
+    width: 90%;
+    margin: 0px auto;
+    @media #{$tablet}{
+        height: 100vw;
+    }
+}

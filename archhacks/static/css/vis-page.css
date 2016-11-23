@@ -1,0 +1,137 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+  width: 100%; }
+
+#header a {
+  display: block;
+  width: 15%;
+  margin: 10px 42.5%; }
+#header img {
+  width: 100%; }
+#header #title {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 4px;
+  text-transform: uppercase; }
+#header .data-vis-description {
+  text-align: center;
+  width: 80%;
+  margin: 10px auto;
+  font-size: 14px;
+  margin-bottom: 60px; }
+
+#applications-by-school {
+  margin: 20px 5%;
+  width: 90%; }
+  #applications-by-school .school_row {
+    width: 100%;
+    margin-bottom: 10px; }
+    #applications-by-school .school_row .school {
+      float: left;
+      height: 150px; }
+      @media all and (max-width: 768px) {
+        #applications-by-school .school_row .school {
+          width: 47.6%; } }
+      @media all and (max-width: 400px) {
+        #applications-by-school .school_row .school {
+          width: 100%; } }
+      #applications-by-school .school_row .school .school_title {
+        font-size: 12px;
+        text-align: center;
+        height: 25px;
+        font-weight: 300; }
+      #applications-by-school .school_row .school div.school-outer {
+        height: 70px;
+        margin: 10px auto 5px auto;
+        background-color: gainsboro;
+        width: 70px;
+        border-radius: 50%;
+        text-align: center; }
+        #applications-by-school .school_row .school div.school-outer:hover .school-hover {
+          display: block; }
+        #applications-by-school .school_row .school div.school-outer:active .school-hover {
+          display: block; }
+        #applications-by-school .school_row .school div.school-outer div.school-inner {
+          background: black;
+          display: inline-block;
+          vertical-align: middle;
+          border-radius: 50%; }
+          #applications-by-school .school_row .school div.school-outer div.school-inner img {
+            height: 78px;
+            position: relative;
+            top: -4px;
+            left: -4px; }
+        #applications-by-school .school_row .school div.school-outer .school-hover {
+          height: 100%;
+          width: 100%;
+          position: relative;
+          top: -70px;
+          display: none;
+          background: rgba(199, 71, 97, 0.7);
+          border-radius: 50%; }
+          @media all and (max-device-width: 768px) {
+            #applications-by-school .school_row .school div.school-outer .school-hover {
+              display: block;
+              background: rgba(199, 71, 97, 0.4); } }
+          #applications-by-school .school_row .school div.school-outer .school-hover .school-hover-text {
+            position: relative;
+            top: 17px;
+            color: white;
+            text-transform: uppercase; }
+            #applications-by-school .school_row .school div.school-outer .school-hover .school-hover-text div.val {
+              font-size: 36px;
+              font-weight: 400; }
+            #applications-by-school .school_row .school div.school-outer .school-hover .school-hover-text div.apps {
+              font-size: 8px; }
+      #applications-by-school .school_row .school div.school-outer:before {
+        content: ' ';
+        display: inline-block;
+        vertical-align: middle;
+        height: 100%;
+        margin: 0 auto; }
+      #applications-by-school .school_row .school .school_footer.has_text {
+        font-size: 8px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600;
+        width: 100px;
+        margin: 0 auto;
+        height: 40px;
+        top: -20px; }
+        #applications-by-school .school_row .school .school_footer.has_text span:nth-of-type(-n+7) {
+          color: #c74761; }
+
+.data-vis-description-disclaimer {
+  text-align: center;
+  width: 80%;
+  margin: 0px auto;
+  font-style: italic;
+  font-size: 10px; }
+
+.map-header .map-title {
+  margin-top: 60px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 4px;
+  text-transform: uppercase; }
+.map-header .map-vis-description {
+  text-align: center;
+  width: 80%;
+  margin: 10px auto;
+  font-size: 14px;
+  margin-bottom: 60px; }
+
+#map_div {
+  max-height: 95vh;
+  height: 50vw;
+  width: 90%;
+  margin: 0px auto; }
+  @media all and (max-width: 768px) {
+    #map_div {
+      height: 100vw; } }
+
+/*# sourceMappingURL=vis-page.css.map */

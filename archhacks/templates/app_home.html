@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+ 
+{% block title %}
+Home
+{% endblock %}
+
+{% block body_class %}app_home{% endblock %}
+
+{% block content %}
+<div class="home-logo">
+  <a href="{% block app_home_link %}/{% endblock app_home_link %}"><img src="static/images/archhackslogo-title-date.png" alt="ArchHacks"></a>
+  <h2 id="welcome-mission">Code That Matters</h2>
+</div>
+<div class="home-signin-signup">
+  <a href="/signin">
+    <button class="home-signin">Sign In</button> 
+  </a>
+  <a href="/signup">
+    <button class="home-signup">Sign Up</button>
+  </a>
+</div>
+{% block form_content %}
+{% endblock form_content %}
+
+{% block profile_content %}
+{% endblock profile_content %}
+     
+{% endblock content %}

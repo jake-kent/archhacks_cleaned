@@ -1,0 +1,133 @@
+{% extends "layout.html" %}
+
+{% block title %}Cornhole Tournament{% endblock %}
+
+{% block body_class %}tourney{% endblock %}
+
+{% block content %}
+
+<a href="/profile">
+    <button class="home-signin-signup">Profile</button>
+</a>
+
+<br>
+
+{% if user.is_admin and tourney_started and reg_users|length < 2 and won_users|length > 0 %}
+    <a href="/tourney_next_round">
+        <button class="home-signin-signup">Advance Round</button>
+    </a>
+{% endif %}
+
+<h2>Cornhole Tournament</h2>
+
+{% if not tourney_started %}
+<form action="{{ url_for('tourney') }}" method="post">
+    {% if user.tourney_position > 0 %}
+        {{ tourney_form.unregister(id="unregister") }}
+    {% else %}
+        {{ tourney_form.register }}
+    {% endif %}
+</form>
+    {% if user.is_admin %}
+    <br>
+    <a href="/start_tourney">
+        <button class=""home-signin-signup>Start Tournament!</button>
+    </a>
+    <br>
+    {% endif %}
+{% endif %}
+
+{{ message }}
+
+{% for error in tourney_form.register.errors %}
+     <div class="flash">{{ error }}</div>
+{% endfor %}
+
+{% for error in tourney_form.unregister.errors %}
+     <div class="flash">{{ error }}</div>
+{% endfor %}
+
+{% if user.is_admin and tourney_started and reg_users|length > 1 %}
+    <div>
+        <p class="admin-controls">Admin Controls:</p>
+        <form action="{{ url_for('set_tourney_winner') }}" method="POST" autocomplete="off">
+            <input type="hidden" name="user0_email" value="{{ reg_users[0].email }}">
+                <input type="hidden" name="user1_email" value="{{ reg_users[1].email }}">
+                <input type="hidden" name= "user1_email" value="">
+            <input type="text" name="email_entry" placeholder="Winner's email" value="" required>
+            <input type="submit" name="admin_action" value="Winner">
+        </form>
+    </div>
+{% endif %}
+
+{% if reg_users|length > 1 %}
+    {% set user0 = reg_users[0] %}
+    {% set user1 = reg_users[1] %}
+    {% set rest_of_line = reg_users[2:] %}
+{% else %}
+    {% set rest_of_line = reg_users %}
+{% endif %}
+
+<h3>Current round: {{ round }}</h3>
+{% if user0 is defined %}
+    <div class="curr_game">
+        <h3>Current Game:</h3>
+        <div class ="user" id="curr_game_user">
+                <span class="user-name{{user.is_admin}}">{{ user0.firstname }} {{ user0.lastname }}</span>
+                    <span class="user-email">- {{ user0.email }}</span>
+        </div>
+        <div class="vs">
+            VS
+        </div>
+        <div class ="user" id="curr_game_user">
+                <span class="user-name{{user.is_admin}}">{{ user1.firstname }} {{ user1.lastname }}</span>
+                    <span class="user-email">- {{ user1.email }}</span>
+        </div>
+    </div>
+{% endif %}
+
+{% if rest_of_line|length > 0 %}
+<div class="line_container">
+    <div class="line_header">
+        <h3>People in line:</h3>
+    </div>
+    {% for reg_user in rest_of_line %}
+        <div class ="user">
+            <span class="user-name{{user.is_admin}}">{{ reg_user.firstname }} {{ reg_user.lastname }}</span>
+                <span class="user-email">- {{ reg_user.email }}</span>
+        </div>
+    {% endfor %}
+</div>
+{% endif %}
+
+<div class="line_container" id="already-played">
+    <div class="line_header">
+        {% if reg_users|length == 0 and won_users|length == 1 %}
+            <h3>Tournament Winner:</h3>
+        {% else %}
+            <h3>Current Round Winners:</h3>
+        {% endif %}
+    </div>
+    {% for won_user in won_users %}
+        <div class="user">
+            {{ won_user.firstname }} {{ won_user.lastname }}
+        </div>
+    {% endfor %}
+</div>
+
+<script>
+    function confirm_unregister(e) {
+        if (!confirm("Are you sure you want to unregister? You will be placed at the back of the line if you re-join")) {
+            e.preventDefault();
+        }
+    }
+
+    $("#unregister").on("click", function(e) {
+        confirm_unregister(e);
+    });
+    
+</script>
+
+
+
+{% endblock %}

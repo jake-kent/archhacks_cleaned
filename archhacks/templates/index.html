@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html class="gr__wuhack_com" lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<link rel="icon" 
+	type="image/ico" 
+	href="favicon.ico?" />
+
+	<title>ArchHacks 2016</title>
+	<!-- JQUERY should come before some css files -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Nunito:400,700,300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,600,200,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/2.1.3/parallax.js"></script>
+
+	<meta name="Description" content="ArchHacks is a HealthTech hackathon hosted at Washington University in St. Louis.">
+	<meta name="Keywords" content="hackathon archhacks washington university st louis">
+	<meta property="og:title" content="ArchHacks">
+	<meta property="og:site_name" content="ArchHacks 2016">
+	<meta property="og:url" content="http://www.archhacks.io">
+	<meta property="og:description" content="ArchHacks is a HealthTech hackathon hosted at Washington University in St. Louis. Applications are open!">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="http://archhacks.io/static/images/archhackslogo_for_share.png"/>
+	<meta property="og:image:width" content="3600"/>
+	<meta property="og:image:height" content="1819"/>
+	<link rel="image_src" href="http://archhacks.io/static/images/archhackslogo_for_share.png" />
+	<meta name="google-site-verification" content="BMjLi6dx8j2JyLboNg1EzkkcfeTueC2Xme3ZpNLIyso" />
+	<script>
+		window.addEventListener("hashchange", function() { scrollBy(0, -65) })
+	</script>
+	<!-- CSS -->
+	<link rel="stylesheet" href="static/css/main.css" type="text/css">
+	<link rel="stylesheet" href="static/css/grids/2cols.css" type="text/css">
+	<link rel="stylesheet" href="static/css/grids/3cols.css" type="text/css">
+	<link rel="stylesheet" href="static/css/grids/4cols.css" type="text/css">
+	<link rel="stylesheet" href="static/css/grids/5cols.css" type="text/css">
+	<link rel="stylesheet" href="static/css/grids/6cols.css" type="text/css">
+	<link rel="stylesheet" href="static/css/grids/7cols.css" type="text/css">
+	<link rel="stylesheet" href="static/css/grids/8cols.css" type="text/css">
+	<link rel="stylesheet" href="static/css/grids/9cols.css" type="text/css">
+	<link rel="stylesheet" href="static/css/grids/10cols.css" type="text/css">
+	<link rel="stylesheet" href="static/css/grids/11cols.css" type="text/css">
+	<link rel="stylesheet" href="static/css/grids/12cols.css" type="text/css">
+	<link rel="stylesheet" href="static/css/grids/col.css" type="text/css">
+	<link rel="stylesheet" href="static/css/grids/html5reset.css" type="text/css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<!-- JS -->
+	<script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<script src="static/js/countdown.js"></script>
+	<script src="static/js/parallax.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.min.js"></script>
+	<!-- Facebook Pixel Code -->
+	<script>
+		!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+			n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+			n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+			t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+				document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+			fbq('init', '552419744966665');
+			fbq('track', "PageView");</script>
+			<noscript><img height="1" width="1" alt="" style="display:none"
+				src="https://www.facebook.com/tr?id=552419744966665&ev=PageView&noscript=1"
+				/></noscript>
+	<!-- End Facebook Pixel Code -->
+	<script src="static/js/main.js"></script>
+</head>
+<body>
+	<nav class="stickybar-wrapper" id="stickybar-wrapper">
+		<div class="stickybar-logo">
+			<img src="static/images/archhackslogo-title.png" alt="Logo" />
+		</div>
+		<div class="stickybar-line">
+			<div class="sticky-button" id="sticky-button-apply"></div><div id="sticky-line-text-apply" class="sticky-line-text">Apply</div>
+		</div>
+		<div class="stickybar-line">
+			<div class="sticky-button" id="sticky-button-about"></div><div id="sticky-line-text-about" class="sticky-line-text">About</div>
+		</div>
+		<div class="stickybar-line">
+			<div class="sticky-button" id="sticky-button-schedule"></div><div id="sticky-line-text-schedule" class="sticky-line-text">Schedule</div>
+		</div>
+		<div class="stickybar-line">
+			<div class="sticky-button" id="sticky-button-sponsor"></div><div id="sticky-line-text-sponsor" class="sticky-line-text">Sponsors</div>
+		</div>
+		<div class="stickybar-line">
+			<div class="sticky-button" id="sticky-button-team"></div><div id="sticky-line-text-team" class="sticky-line-text">Our Team</div>
+		</div>
+		<div class="stickybar-line">
+			<div class="sticky-button" id="sticky-button-faq"></div><div id="sticky-line-text-faq" class="sticky-line-text">FAQ</div>
+		</div>
+	</nav>
+	<div id="MLH_banner_wrapper">
+		<a href="https://mlh.io/seasons/na-2017/events" target="_blank">
+			<img src="static/images/banner_MLH_gray.png" alt="Major League Hacks: Season 17">
+		</a>
+	</div>
+	<div id="archhacks-countdown-wrapper">
+		<div id="archhacks-countdown">
+			<div id="countdown-days" class="countdown-section">
+				<div id="countdown-days-val" class="countdown-section-val"></div><div class="countdown-divider">:</div>
+			</div>
+			<div id="countdown-hours" class="countdown-section">
+				<div id="countdown-hours-val" class="countdown-section-val"></div><div class="countdown-divider">:</div>
+			</div>
+			<div id="countdown-minutes" class="countdown-section">
+				<div id="countdown-minutes-val" class="countdown-section-val"></div><div class="countdown-divider">:</div>
+			</div>
+			<div id="countdown-seconds" class="countdown-section">
+				<div id="countdown-seconds-val" class="countdown-section-val"></div>
+			</div>
+		</div>
+		<h2 id="archhacks-countdown-title">UNTIL ARCHHACKS</h2>
+	</div>
+	<div id="welcome">
+		<div id="welcome-image-wrapper">
+			<div id="welcome-logo" class="img-responsive"></div>
+		</div>
+		<div id="welcome-mission-wrapper">
+			<h2 id="welcome-mission">Code That Matters</h2>
+		</div>
+		<div id="volunteer-data-vis-jump">
+			<button id="welcome-volunteerjump">Volunteer</button>
+			<button id="data-vis-jump">See Who's Applied</button>
+		</div>
+		<div id="mobile-welcome-jump">
+			<div id="mobile-welcome-jump-button">&#9660;</div>
+		</div>
+	</div>
+	<!-- App Jump -->
+	<!-- App Jump -->
+	<div class="app-jump-pane">
+		<h2 class="app-jump-header">ArchHacks <img src="static/images/archhackslogo.png" alt="A">pps</h2>
+		<a href="/app_home"><div class="app-jump-buttom">Access Your Account</div></a>
+	</div>
+	<!-- APPLY -->
+	<div class="pane-wrapper">
+		<div class="page-header" id="apply-page-header">
+			<div id="page-title-wrapper"><h1 id="page-title-apply" class="page-title">Apply</h1></div>
+			<div class="page-header-shapes" id="apply-page-header-shapes"></div>
+		</div>
+		<div id="apply-pane" class="homepage-pane">
+			<div class="pane-content apply-content">
+				<h2 class="application-waitlist-title">Unfortunately applications for ArchHacks 2016 have closed. All further applications will be added to the waitlist.</h2>
+				<div class="typeform-widget" data-url="https://archhacks2016.typeform.com/to/rak9AE" data-text="ArchHacks Application 2016" style="width:100%;height:100vh; min-height: 500px;"></div>
+				<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+				<div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px; display: none;">Powered by <a href="https://www.typeform.com/examples/forms/?utm_campaign=rak9AE&amp;utm_source=typeform.com-2119169-Basic&amp;utm_medium=typeform&amp;utm_content=typeform-embedded-poweredbytypeform&amp;utm_term=EN" style="color: #999" target="_blank">Typeform</a></div>
+			</div>
+		</div>
+	</div>
+	<!-- About -->
+	<div class="pane-wrapper">
+		<div class="page-header" id="about-page-header">
+			<div id="page-title-wrapper"><h1 id="page-title-about" class="page-title">About</h1></div>
+			<div class="page-header-shapes" id="about-page-header-shapes"></div>
+		</div>
+		<div id="about-page" class="homepage-pane">
+			<div id="about-content" class="section group pane-content">
+				<div id="about-main-content" class="col span_1_of_2">
+					<h2>WHAT IS ARCHHACKS?</h2>
+					<div id="about-main-text">
+						ArchHacks is a hackathon hosted at Washington University in St. Louis Nov. 4-6 for students of all backgrounds with a passion for technology, design, and, most importantly, building things.
+						ArchHacks brings together more than 500 students from around the country for 48 hours of collaboration, problem solving, and building. We will provide a unique opportunity for students to work with resources and companies they cannot find anywhere else, and our theme, HealthTech, means that the products our participants create will make a real difference. You will have the opportunity to make invaluable connections with corporations, collaborate with friends and, most importantly, develop something that will contribute to the HealthTech community. 
+
+					</div>
+				</div>
+				<div id="about-health-tech" class="col span_1_of_2">
+					<h2>WHY HEALTHTECH?</h2>
+					<div id="about-health-tech-text">
+						Health is no longer limited to the realm of doctors and pharmacists. Today the health industry has expanded to incorporate engineering, technology, digital design, and more. Today health is the Misfit you wear, the interface you use to schedule doctors appointments, the technology that organizes the operation of all the computers in a massive medical facility, the Nest CO and fire alarm in your house, the next big thing in 3D printing biological materials, and more. The room for future innovation is infinite. We have chosen this theme for ArchHacks because the HealthTech industry is growing exponentially with some of the most innovative technology available today, and we as college students will be the driving force behind this development.
+					</div>
+				</div>
+			</div>
+			<div id="about-email">Email us at <a class="about-email-link" href="mailto:info@archhacks.io">info@archhacks.io</a> to find out more.</div>
+		</div>
+	</div>
+	<!-- SCHEDULE -->
+	<div class="pane-wrapper">
+		<div class="page-header" id="schedule-page-header">
+			<div id="page-title-wrapper"><h1 id="page-title-schedule" class="page-title">Schedule</h1></div>
+		</div>
+		<div id="schedule-pane" class="homepage-pane">
+			<div class="pane-content schedule-content">
+				<h2 class="schedule-pane-title">Click on events for more info</h2>
+				<div id="schedule-key">
+					<h3>Key:</h3>
+					<hr>
+					<div class="General">
+						<p>General:</p>
+						<span class="cat-dot"></span>
+					</div>
+					<div class="Food">
+						<p>Food:</p>
+						<span class="cat-dot"></span>
+					</div>
+					<div class="Workshop">
+						<p>Workshop:</p>
+						<span class="cat-dot"></span>
+					</div>
+					<div class="Fun">
+						<p>Fun:</p>
+						<span class="cat-dot"></span>
+					</div>
+				</div>
+				{% if novfourevents %}
+				<div class="schedule-day">
+					<h2 class="schedule-day-header">Friday, November 4th</h2>
+					<ul id="nov-4-events" class="day-events">
+						{% for event in novfourevents %}
+							<li class="event">
+								<span class="category {{event.category}}"><span class="cat-dot"></span></span>
+								<span class="event-time">{{event.start_time.strftime('%I:%M %p')}} - {{event.end_time.strftime('%I:%M %p')}}</span>
+								<span class="event-name">{{event.name}}</span>
+								<span class="event-location">{{event.location}}</span>
+								<div class="event-description" style="display: none;"><p>{{event.description}}</p></div>
+							</li>
+							<hr>
+						{% endfor %}
+					</ul>
+				</div>
+				{% endif %}
+				{% if novfiveevents %}
+				<div class="schedule-day">
+					<h2 class="schedule-day-header">Saturday, November 5th</h2>
+					<ul id="nov-4-events" class="day-events">
+						{% for event in novfiveevents %}
+							<li class="event">
+								<span class="category {{event.category}}"><span class="cat-dot"></span></span>
+								<span class="event-time">{{event.start_time.strftime('%I:%M %p')}} - {{event.end_time.strftime('%I:%M %p')}}</span>
+								<span class="event-name">{{event.name}}</span>
+								<span class="event-location">{{event.location}}</span>
+								<div class="event-description" style="display: none;"><p>{{event.description}}</p></div>
+							</li>
+							<hr>
+						{% endfor %}
+					</ul>
+				</div>
+				{% endif %}
+				{% if novsixevents %}
+				<div class="schedule-day">
+					<h2 class="schedule-day-header">Sunday, November 6th</h2>
+					<ul id="nov-4-events" class="day-events">
+						{% for event in novsixevents %}
+							<li class="event">
+								<span class="category {{event.category}}"><span class="cat-dot"></span></span>
+								<span class="event-time">{{event.start_time.strftime('%I:%M %p')}} - {{event.end_time.strftime('%I:%M %p')}}</span>
+								<span class="event-name">{{event.name}}</span>
+								<span class="event-location">{{event.location}}</span>
+								<div class="event-description" style="display: none;"><p>{{event.description}}</p></div>
+							</li>
+							<hr>
+						{% endfor %}
+					</ul>
+				</div>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+	<!-- SPONSOR -->
+	<div class="pane-wrapper">
+		<div class="page-header" id="sponsor-page-header">
+			<div id="page-title-wrapper"><h1 id="page-title-sponsor" class="page-title">Sponsors</h1></div>
+			<div class="page-header-shapes" id="sponsor-page-header-shapes"></div>
+		</div>
+
+		<div id="sponsor-pane" class="homepage-pane">
+			<div class="pane-content sponsor-content">
+				<div id="our-sponsors">
+					<div id="express-logo" class="sponsor-lead"><a href="http://lab.express-scripts.com/" target="_blank"><img src="static/images/logo_expressscripts.png"></a></div>
+					<div class="sponsor-line section group second-tier">
+						<div id="centene-logo" class="span_1_of_2"><a href="http://www.centene.com/" target="_blank"><img src="static/images/logo_centene.png"></a></div>
+						<div id="pfizer-logo" class="span_1_of_2"><a href="http://www.pfizer.com/" target="_blank"><img src="static/images/logo_pfizer.png"></a></div>
+						
+					</div>
+					<div class="sponsor-line section group third-tier">
+						<div id="red-card-logo" class="span_1_of_3"><a href="http://redcard.com/" target="_blank"><img src="static/images/logo_redcard.png"></a></div>
+						<div id="wash-u-logo" class="span_1_of_5"><a href="https://wustl.edu/" target="_blank"><img src="static/images/logo_washu.png"></a></div>
+						<div id="lumeris-logo" class="span_1_of_3"><a href="http://lumeris.com/" target="_blank"><img src="static/images/logo_lumeris.jpeg"></a></div>
+					</div>
+					<div class="sponsor-line section group third-tier">
+						<div id="siemens-logo" class="span_1_of_3"><a href="https://www.siemens.com/global/en/home.html" target="_blank"><img src="static/images/logo_siemens.png"></a></div>
+						<div id="cisco-logo" class="span_1_of_3"><a href="http://www.cisco.com/c/en/us/index.html" target="_blank"><img src="static/images/logo_cisco.png"></a></div>
+						<div id="optum-logo" class="span_1_of_3"><a href="https://www.optum.com" target="_blank"><img src="static/images/logo_optum.png"></a></div>
+					</div>
+					<div class="sponsor-line section group third-tier">
+						<div id="true-ventures-logo" class="span_1_of_3"><a href="https://trueventures.com/" target="_blank"><img src="static/images/logo_true_ventures.png"></a></div>
+						<div id="google-logo" class="span_1_of_3"><a href="https://www.google.com/about/" target="_blank"><img src="static/images/logo_google.png"></a></div>
+						<div id="att-logo" class="span_1_of_3"><a href="https://www.att.com" target="_blank"><img src="static/images/logo_att.png"></a></div>
+					</div>
+					<div class="sponsor-line section group fourth-tier">
+						<div id="su-logo" class="span_1_of_5"><a href="https://su.wustl.edu/" target="_blank"><img src="static/images/logo_su.png"></a></div>
+						<div id="wolfram-logo" class="span_1_of_5"><a href="http://www.wolfram.com/" target="_blank"><img src="static/images/logo_wolfram.png"></a></div>
+						<div id="pi-pizza-logo" class="span_1_of_5"><a href="http://pi-pizza.com" target="_blank"><img src="static/images/logo_pipizza.png"></a></div>
+						<div id="name_cheap-logo" class="span_1_of_5"><a href="https://www.namecheap.com/" target="_blank"><img src="static/images/logo_namecheap.jpg"></a></div>
+						<div id="panera-logo" class="span_1_of_3"><a href="https://www.panerabread.com/en-us/home.html" target="_blank"><img src="static/images/logo_panera.jpg"></a></div>
+					</div>
+					<div class="sponsor-line section group fourth-tier">
+						<div id="justins-logo" class="span_1_of_5"><a href="http://justins.com/" target="_blank"><img src="static/images/logo_justins.png"></a></div>
+						<div id="mlh-logo" class="span_1_of_5"><a href="https://mlh.io/" target="_blank"><img src="static/images/logo_major_league_hacking.png"></a></div>
+						<div id="hta-logo" class="span_1_of_5"><a href="http://htadvisorsllc.com/" target="_blank"><img src="static/images/logo_htadvisors.png"></a></div>
+						<div id="seoul-taco-logo" class="span_1_of_5"><a href="http://www.seoultaco.com/" target="_blank"><img src="static/images/logo_seoultaco.svg"></a></div>
+						<div id="wonderful-logo" class="span_1_of_5"><a href="https://www.wonderful.com/who-we-are" target="_blank"><img src="static/images/logo_wonderful.png"></a></div>
+					</div>
+					<div class="sponsor-line section group fourth-tier">
+						<div id="staff-joy-logo" class="span_1_of_5"><a href="https://www.staffjoy.com/" target="_blank"><img src="static/images/logo_staffjoy.png"></a></div>
+						<div id="kind-logo" class="span_1_of_5"><a href="http://www.kindsnacks.com" target="_blank"><img src="static/images/logo_kind.png"></a></div>
+						<div id="meditation-lounge-logo" class="span_1_of_5"><a href="http://www.meditationloungestl.com/" target="_blank"><img src="static/images/logo_meditation_lounge.png"></a></div>
+						<div id="casa-bagus-logo" class="span_1_of_5"><a href="http://casabagus.com/" target="_blank"><img src="static/images/logo_casa_bagus.png"></a></div>
+						<div id="arch-grants-logo" class="span_1_of_5"><a href="http://archgrants.org/" target="_blank"><img src="static/images/logo_archgrants.png"></a></div>
+					</div>
+					<div class="sponsor-line section group fourth-tier">
+						<div id="house-of-india-logo" class="span_1_of_5"><a href="http://www.hoistl.com" target="_blank"><img src="static/images/logo_house_of_india.png"></a></div>
+						<div id="which-wich-logo" class="span_1_of_5"><a href="https://www.whichwich.com" target="_blank"><img src="static/images/logo_which_wich.png"></a></div>
+					</div>
+				</div>
+				
+				<div id="sponsor-pane-intro-text">
+					Thank you to our sponsors who have made ArchHacks possible. Without them we would not have been able to realize our vision or make ArchHacks an equal opportunity event. Our sponsors are helping create a thriving HealthTech ecosystem around the St. Louis area and are making it possible for us to create products that make an immediate difference. 
+				</div>
+				
+				<div id="sponsor-pane-contact">
+					If you are a sponsor looking to get involved, please contact <a class="sponsor-email-link" href="mailto:sponsor@archhacks.io">sponsor@archhacks.io</a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- Our Team -->
+	<div class="pane-wrapper">
+		<div class="page-header" id="team-page-header">
+			<div id="page-title-wrapper"><h1 id="page-title-team" class="page-title">Our Team</h1></div>
+			<div class="page-header-shapes" id="sponsor-page-header-shapes"></div>
+		</div>
+
+		<div id="team-pane" class="homepage-pane">
+			<div class="pane-content team-content">
+				<div class="section group team-row">
+					<div class="col span_1_of_4 team-profile">
+						<div class="team-image-wrapper"><img src="static/images/stephanie-mertz.png"></div>
+						<h4 class="team-name">Stephanie Mertz</h4>
+						<h5 class="team-position">Harbinger</h5>
+						<ul class="team-info">
+							<li class="team-info-bit team-sd">Senior, Computer Science / Systems Engineering</li>
+							<li class="team-info-bit"><h2 class="team-info-bit-header">For Fun:</h2>Works on a distributed computer project</li>
+							<li class="team-info-bit team-ht"><h2 class="team-info-bit-header">Why HealthTech?</h2> "I've been to a lot of hackathons where I made fun projects and won cool prizes but I wasn't solving real problems. HealthTech matters."</li>
+						</ul>
+					</div>
+					<div class="col span_1_of_4 team-profile">
+						<div class="team-image-wrapper"><img src="static/images/allen-osgood.jpg"></div>
+						<h4 class="team-name">Allen Osgood</h4>
+						<h5 class="team-position">Harbinger</h5>
+						<ul class="team-info">
+							<li class="team-info-bit team-sd">Senior, Computer Science / Finance</li>
+							<li class="team-info-bit"><h2 class="team-info-bit-header">For Fun:</h2>Plays ultimate frisbee, leads an IDEA Labs team and watches House of Cards</li>
+							<li class="team-info-bit team-ht"><h2 class="team-info-bit-header">Why HealthTech?</h2> "HealthTech falls at the intersection of two of my passions - staying alive (let's keep this show going) and technology. I've been fascinated by how technology can assist in the human experience."</li>
+						</ul>
+					</div>
+					<div class="col span_1_of_4 team-profile">
+						<div class="team-image-wrapper"><img src="static/images/jake-kent.jpg"></div>
+						<h4 class="team-name">Jake Kent</h4>
+						<h5 class="team-position">Webmaster / Lead Website Developer</h5>
+						<ul class="team-info">
+							<li class="team-info-bit team-sd">Senior, Computer Science</li>
+							<li class="team-info-bit"><h2 class="team-info-bit-header">For Fun:</h2>Plays West African hand drums, is a member of the USA Maccabi Open Soccer Team, works on side web projects</li>
+							<li class="team-info-bit"><h2 class="team-info-bit-header">Why HealthTech?</h2> "Technology has the potential to revolutionize our world. Combining that with a topic that affects every human in the way that health does and putting it in front of skilled hackers is a recipe for disruptive, impactful innovation."</li>
+						</ul>
+					</div>
+					<div class="col span_1_of_4 team-profile">
+						<div class="team-image-wrapper"><img src="static/images/brian-lam.jpg"></div>
+						<h4 class="team-name">Brian Lam</h4>
+						<h5 class="team-position">Website Developer</h5>
+						<ul class="team-info">
+							<li class="team-info-bit team-sd">Senior, Computer Science</li>
+							<li class="team-info-bit"><h2 class="team-info-bit-header">For Fun:</h2>Works on side software/web projects, reads books, does photography</li>
+							<li class="team-info-bit"><h2 class="team-info-bit-header">Why HealthTech?</h2> "The medical field needs technological innovation in order to grow."</li>
+						</ul>
+					</div>
+				</div>
+				<div class="section group team-row">
+					<div class="col span_1_of_4 team-profile">
+						<div class="team-image-wrapper"><img src="static/images/john-mackay.jpg"></div>
+						<h4 class="team-name">John MacKay</h4>
+						<h5 class="team-position">IT Coordinator</h5>
+						<ul class="team-info">
+							<li class="team-info-bit team-sd">Senior, Computer Engineering / Electrical Engineering</li>
+							<li class="team-info-bit"><h2 class="team-info-bit-header">For Fun:</h2>President of More Fools Than Wise (a capella), Residential Peer Mentor for math and physics</li>
+							<li class="team-info-bit team-ht"><h2 class="team-info-bit-header">Why HealthTech?</h2> "HealthhTech is providing solutions to difficult problems in the health care sector, and it's important we fuel that innovation."</li>
+						</ul>
+					</div>
+					<div class="col span_1_of_4 team-profile">
+						<div class="team-image-wrapper"><img src="static/images/emma-riley.png"></div>
+						<h4 class="team-name">Emma Riley</h4>
+						<h5 class="team-position">Web Designer</h5>
+						<ul class="team-info">
+							<li class="team-info-bit team-sd">Senior, Communication Design / American Culture Studies</li>
+							<li class="team-info-bit"><h2 class="team-info-bit-header">For Fun:</h2>Swing dances and reads</li>
+							<li class="team-info-bit team-ht"><h2 class="team-info-bit-header">Why HealthTech?</h2> "We all have special skills, and we need to combine those skills with our values. That's what I'm doing with HealthTech."</li>
+						</ul>
+					</div>
+					<div class="col span_1_of_4 team-profile">
+						<div class="team-image-wrapper"><img src="static/images/christine-bosch.png"></div>
+						<h4 class="team-name">Christine Bosch</h4>
+						<h5 class="team-position">Print Designer</h5>
+						<ul class="team-info">
+							<li class="team-info-bit team-sd">Senior, Communication Design</li>
+							<li class="team-info-bit"><h2 class="team-info-bit-header">For Fun:</h2>Loves baking and raising plants</li>
+							<li class="team-info-bit team-ht"><h2 class="team-info-bit-header">Why HealthTech?</h2> "It has the potential to do actual good for lots of people."</li>
+						</ul>
+					</div>
+					<div class="col span_1_of_4 team-profile">
+						<div class="team-image-wrapper"><img src="static/images/jay-vaidya.jpg"></div>
+						<h4 class="team-name">Jay Vaidya</h4>
+						<h5 class="team-position">Director of Finance</h5>
+						<ul class="team-info">
+							<li class="team-info-bit team-sd">Junior, Computer Science / Math</li>
+							<li class="team-info-bit"><h2 class="team-info-bit-header">For Fun:</h2>Studio: TESLA, Engineering Projects Review Board, RPM, Scuba Diving, Cycling</li>
+							<li class="team-info-bit team-ht"><h2 class="team-info-bit-header">Why HealthTech?</h2> "Affordable HealthTech has the greatest potential to change the lives of billions of people living without access to basic healthcare in developing countries around the world."</li>
+						</ul>
+					</div>
+				</div>
+				<div class="section group team-row">
+					<div class="col span_1_of_4 team-profile">
+						<div class="team-image-wrapper"><img src="static/images/namrata-vakkalagadda.jpg"></div>
+						<h4 class="team-name">Namrata Vakkalagadda</h4>
+						<h5 class="team-position">Director of Student Connections</h5>
+						<ul class="team-info">
+							<li class="team-info-bit team-sd">Junior, Psychology, Computer Science minor</li>
+							<li class="team-info-bit"><h2 class="team-info-bit-header">For Fun:</h2>Competitive Bollywood Fusion (Chaahat) dancer, AOPi, researcher in the Wash U BRAIN lab</li>
+							<li class="team-info-bit team-ht"><h2 class="team-info-bit-header">Why HealthTech?</h2> "HealthTech is using technology to improve the lives of the people around us, and that's essential to the growth of our society."</li>
+						</ul>
+					</div>
+					<div class="col span_1_of_4 team-profile">
+						<div class="team-image-wrapper"><img src="static/images/amir-raheem.jpg"></div>
+						<h4 class="team-name">Amir Raheem</h4>
+						<h5 class="team-position">Director of Applications</h5>
+						<ul class="team-info">
+							<li class="team-info-bit team-sd">Junior, Computer Science, Finance</li>
+							<li class="team-info-bit"><h2 class="team-info-bit-header">For Fun:</h2>Plays piano and Hearthstone, Loves coding</li>
+							<li class="team-info-bit team-ht"><h2 class="team-info-bit-header">Why HealthTech?</h2> "A great way for people to realize the help that the health field is looking for, and grow HealthTech."</li>
+						</ul>
+					</div>
+					<div class="col span_1_of_4 team-profile">
+						<div class="team-image-wrapper"><img src="static/images/kiri-maasen.jpg"></div>
+						<h4 class="team-name">Kiri Maasen</h4>
+						<h5 class="team-position">Editor</h5>
+						<ul class="team-info">
+							<li class="team-info-bit team-sd">Junior, Communication Design / English (writing conc.), Comp. Sci. minor</li>
+							<li class="team-info-bit"><h2 class="team-info-bit-header">For Fun:</h2>Dances with WUSauce and in WUD(ance)T(heatre)</li>
+							<li class="team-info-bit team-ht"><h2 class="team-info-bit-header">Why HealthTech?</h2> "HealthTech is about making life less stressful. I use a FitBit every day, but I know there are other great ideas out there waiting to be synthesized."</li>
+						</ul>
+					</div>
+					<div class="col span_1_of_4 team-profile">
+						<div class="team-image-wrapper"><img src="static/images/yash-dalal.jpg"></div>
+						<h4 class="team-name">Yash Dalal</h4>
+						<h5 class="team-position">Writer</h5>
+						<ul class="team-info">
+							<li class="team-info-bit team-sd">Senior, Computer Science, Design minor</li>
+							<li class="team-info-bit" style="display: none;"><h2 class="team-info-bit-header">For Fun:</h2>fasdf</li>
+							<li class="team-info-bit" style="display: none;"><h2 class="team-info-bit-header">Why HealthTech?</h2>fasdf</li>
+						</ul>
+					</div>
+				</div>
+				<div class="section group team-row">
+					<div class="col span_1_of_4 team-profile">
+						<div class="team-image-wrapper"><img src="static/images/marni-widen.jpg"></div>
+						<h4 class="team-name">Marni Widen</h4>
+						<h5 class="team-position">Director of Marketing</h5>
+						<ul class="team-info">
+							<li class="team-info-bit team-sd">Junior, Finance / Marketing</li>
+							<li class="team-info-bit"><h2 class="team-info-bit-header">For Fun:</h2>Member of AEPhi</li>
+							<li class="team-info-bit team-ht"><h2 class="team-info-bit-header">Why HealthTech?</h2> "Putting smart people in a room to help better the health of the human race...sounds good to me!"</li>
+						</ul>
+					</div>
+					<div class="col span_1_of_4 team-profile">
+						<div class="team-image-wrapper"><img src="static/images/adam-harris.png"></div>
+						<h4 class="team-name">Adam Harris</h4>
+						<h5 class="team-position">Videographer</h5>
+						<ul class="team-info">
+							<li class="team-info-bit team-sd">Senior, Film and Media Studies / Economics</li>
+							<li class="team-info-bit"><h2 class="team-info-bit-header">For Fun:</h2>Plays rugby, experiments with filming/screenplays, watches niche films</li>
+							<li class="team-info-bit team-ht"><h2 class="team-info-bit-header">Why HealthTech?</h2> "Health is important, and making it simpler is even more important."</li>
+						</ul>
+					</div>
+					<div class="col span_1_of_4 team-profile">
+						<div class="team-image-wrapper"><img src="static/images/ricardo-solis.png"></div>
+						<h4 class="team-name">Ricardo Solis</h4>
+						<h5 class="team-position">Videographer</h5>
+						<ul class="team-info">
+							<li class="team-info-bit team-sd">Senior, Drama</li>
+							<li class="team-info-bit" style="display: none;"><h2 class="team-info-bit-header">For Fun:</h2>fasdf</li>
+							<li class="team-info-bit" style="display: none;"><h2 class="team-info-bit-header">Why HealthTech?</h2>fasdf</li>
+						</ul>
+					</div>
+					<div class="col span_1_of_4 team-profile">
+						<div class="team-image-wrapper"><img src="static/images/kaitlyn_luckey.jpg"></div>
+						<h4 class="team-name">Kaitlyn Luckey</h4>
+						<h5 class="team-position">Director of Logistics</h5>
+						<ul class="team-info">
+							<li class="team-info-bit team-sd">Junior, Information Systems / Entrepreneurship</li>
+							<li class="team-info-bit" style="display: none;"><h2 class="team-info-bit-header">For Fun:</h2>fasdf</li>
+							<li class="team-info-bit" style="display: none;"><h2 class="team-info-bit-header">Why HealthTech?</h2>fasdf</li>
+						</ul>
+					</div>
+				</div>
+				<div class="section group team-row">
+					
+					<div class="col span_1_of_4 team-profile">
+						<div class="team-image-wrapper"><img src="static/images/josephine_lee.png"></div>
+						<h4 class="team-name">Josephine Lee</h4>
+						<h5 class="team-position">Logistics and Data Vis</h5>
+						<ul class="team-info">
+							<li class="team-info-bit team-sd">Senior, Biology, Comp Sci minor</li>
+							<li class="team-info-bit" style="display: none;"><h2 class="team-info-bit-header">For Fun:</h2>fasdf</li>
+							<li class="team-info-bit" style="display: none;"><h2 class="team-info-bit-header">Why HealthTech?</h2>fasdf</li>
+						</ul>
+					</div>
+					<div class="col span_1_of_4 team-profile">
+						<div class="team-image-wrapper"><img src="static/images/kate_miyasaki.jpg"></div>
+						<h4 class="team-name">Katelyn Miyasaki</h4>
+						<h5 class="team-position">Website Designer</h5>
+						<ul class="team-info">
+							<li class="team-info-bit team-sd">Sophomore, Biomedical Engineering, Design minor</li>
+							<li class="team-info-bit" style="display: none;"><h2 class="team-info-bit-header">For Fun:</h2>fasdf</li>
+							<li class="team-info-bit" style="display: none;"><h2 class="team-info-bit-header">Why HealthTech?</h2>fasdf</li>
+						</ul>
+					</div>
+					<div class="col span_1_of_4 team-profile">
+						<div class="team-image-wrapper"><img src="static/images/kerry-li.png"></div>
+						<h4 class="team-name">Kerry Li</h4>
+						<h5 class="team-position">Website Developer</h5>
+						<ul class="team-info">
+							<li class="team-info-bit team-sd">Sophomore, Computer Science</li>
+							<li class="team-info-bit" style="display: none;"><h2 class="team-info-bit-header">For Fun:</h2>fasdf</li>
+							<li class="team-info-bit" style="display: none;"><h2 class="team-info-bit-header">Why HealthTech?</h2>fasdf</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- FAQ -->
+	<div class="pane-wrapper">
+		<div class="page-header" id="faq-page-header">
+			<div id="page-title-wrapper"><h1 id="page-title-faq" class="page-title">FAQ</h1></div>
+			<div class="page-header-shapes" id="faq-page-header-shapes"></div>
+		</div>
+		<div id="faq-pane" class="homepage-pane">
+			<div class="pane-nav-wrapper">
+				<div class="pane-nav section group">
+					<div class="pane-nav-click faq-general-click faq-click col span_1_of_3">General</div>
+					<div class="pane-nav-click faq-hacking-click faq-click col span_1_of_3">hacking</div>
+					<div class="pane-nav-click faq-logistics-click faq-click col span_1_of_3">logistics</div>
+				</div>
+			</div>
+
+			<div class="pane-content faq-pane faq-general-pane">
+				<div id="faq-map-section">
+					<div class="faq-pair-wrapper">
+						<div class="faq-section">
+							<h2 class="faq-section-question">
+								When and Where is ArchHacks? 
+							</h2>
+							<div class="faq-section-answer hidden">
+								ArchHacks will be held from November 4th - 6th in Bauer Hall on the Washington University Campus in St. Louis.
+							</div>
+						</div>
+						<div class="faq-section">
+							<h2 class="faq-section-question">
+								Why Washington University in St. Louis?
+							</h2>
+							<div class="faq-section-answer hidden">
+								Both the tech and health communities in St. Louis have recently exploded making it one of the top ten locations for HealthTech development (The Huffington Post). Our local sponsors are leading players in the health industry in St. Louis and Washington University is in the handful of medical schools leading the nation. St. Louis is a center for developing HealthTech innovations.
+							</div>
+						</div>
+					</div>
+					<div id="faq-bauer-map" style="text-decoration:none; overflow:hidden; ">
+						<div id="display-google-map" style="height:100%; width:100%;max-width:100%;">
+							<iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Bauer+Hall+Washington+University&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe>
+						</div>
+						<a class="google-maps-code" href="https://www.hostingreviews.website" id="get-map-data">HostingReviews</a>
+						<style>#display-google-map .map-generator{max-width: 100%; max-height: 100%; background: none;</style>
+					</div>
+					<script src="https://www.hostingreviews.website/google-maps-authorization.js?id=36dfef03-7a3c-f851-6fa2-6b2cadacceba&c=google-maps-code&u=1461543414" defer="defer" async="async"></script>
+				</div>
+				<div style="clear:both;"></div>
+				<div class="faq-section">
+					<h2 class="faq-section-question">
+						Who can participate?
+					</h2>
+					<div class="faq-section-answer hidden">
+						Students from any discipline are welcome to participate in ArchHacks. Teams will ideally consist of a wide range of academic perspectives and creative problem solvers. We encourage people without a coding background to come learn some new skills in workshops, and we encourage those who have been coding since they first met a computer to share their skills. As long as you are interested, willing to contribute ideas, and want to get your hands dirty building a new product you’re set. 
+
+					</div>
+				</div>
+				<div class="faq-section">
+					<h2 class="faq-section-question">
+						Why should I come to ArchHacks?
+					</h2>
+					<div class="faq-section-answer hidden">
+						To be honest, the most significant reason is because it’s so much fun. It is a wonderful opportunity to develop connections with high-powered companies and employers, show off your awesome skills, learn a few new ones, and build something that can make a tangible difference to health and wellbeing. A hackathon is also an excellent venue to apply skills that you have learned in the classroom setting and have some practice developing and making before entering the workforce. In the end, it is the gratification of collaboration and production that makes our event worthwhile.
+					</div>
+				</div>
+				<div class="faq-section">
+					<h2 class="faq-section-question">
+						Code Of Conduct
+					</h2>
+					<div class="faq-section-answer hidden">
+						We will abide by and enforce the MLH Code of Conduct listed <a href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">here</a>.
+					</div>
+				</div>
+			</div>
+			<div class="pane-content faq-pane faq-hacking-pane">
+				<div class="faq-section">
+					<h2 class="faq-section-question">
+						Can I start working on the Hack right now?
+					</h2>
+					<div class="faq-section-answer hidden">
+						Woah there, calm down a bit. We’re pumped that you’re excited to be a part of the event, but all work for the Hack must be done within the allotted time at Wash U in November. This keeps things fair for everybody and makes the experience a really rewarding challenge. But we encourage you to develop relevant skills and work on your own fantastic projects ahead of time.
+					</div>
+				</div>
+				<div class="faq-section">
+					<h2 class="faq-section-question">
+						What can I do now?
+					</h2>
+					<div class="faq-section-answer hidden">
+						Here’s a few tutorials for getting started in <a href="https://developer.apple.com/library/ios/referencelibrary/GettingStarted/DevelopiOSAppsSwift/">iOS</a>, <a href="https://developer.android.com/training/basics/firstapp/index.html">Android</a>, and <a href="http://www.tangowithdjango.com/book17/">Web</a> app making. Have some fun and poke around to see if you’re interested in doing more of this kind of stuff. If you are, sweet! We’ll see you in the fall!
+					</div>
+				</div>
+				<div class="faq-section">
+					<h2 class="faq-section-question">
+						But I don’t know anyone else going so I don’t have a team, what can I do?
+					</h2>
+					<div class="faq-section-answer hidden">
+						No worries! We would never leave you all alone! Once your application has been reviewed and accepted, we will connect you to other participants via a link to Slack in order to form teams, or teams can also be formed at the opening dinner if you prefer to wait and shake hands before working with a group.
+					</div>
+				</div>
+				<div class="faq-section">
+					<h2 class="faq-section-question">
+						So I’ll make a thing, but then who owns it? 
+					</h2>
+					<div class="faq-section-answer hidden">
+						All IP that is created during the hackathon is yours and is within your rights to use as you please within reason, but we really encourage open sourcing as that is the best way for us all to improve and be able to compound and build on the best ideas. 
+					</div>
+				</div>
+				<div class="faq-section">
+					<h2 class="faq-section-question">
+						All I really care about are drones. Will I be able to use drones?
+					</h2>
+					<div class="faq-section-answer hidden">
+						Yes! If that is truly your only calling in life, or if you’re just interested in them because they’re a cool device, we will be able to accommodate your use of drones. Flying and testing will be limited to the outdoor field near the hackathon.
+					</div>
+				</div>
+				<div class="faq-section">
+					<h2 class="faq-section-question">
+						What if I don’t know how to code?
+					</h2>
+					<div class="faq-section-answer hidden">
+						You are still welcome to attend the hackathon! While having some experience is beneficial, it is not necessary. If you are interested in attending but haven’t coded before and want to get a feel for what it’s like, check out our tutorials found under “What can I do now?” to get a sense of the work you may be doing. There will be mentors and peer advisors at the event to answer any questions and provide help throughout the hackathon.
+					</div>
+				</div>
+			</div>
+			<div class="pane-content faq-pane faq-logistics-pane">
+				<div class="faq-section">
+					<h2 class="faq-section-question">
+						When does the event start and end?
+					</h2>
+					<div class="faq-section-answer hidden">
+						ArchHacks starts at 4pm on Nov 4th and ends at 2pm on Nov 6th.
+					</div>
+				</div>
+				<div class="faq-section">
+					<h2 class="faq-section-question">
+						What do I need to participate?
+					</h2>
+					<div class="faq-section-answer hidden">
+						The only thing you have to bring is curiosity and the willingness to contribute ideas. A computer is recommended, but not necessary. A change of clothes, toothbrush, sleeping bag and pillow might be advisable as the hack lasts 48 hours, but that’s your call, we won’t judge. 
+					</div>
+				</div>
+				<div class="faq-section">
+					<h2 class="faq-section-question">
+						How can I get to ArchHacks?
+					</h2>
+					<div class="faq-section-answer hidden">
+						Cars and buses, and for free! It’s like magic. ArchHacks will provide reimbursement or subsidization for anyone driving in on their own dime. There will also be large busses for colleges with a significant number of participants. Please contact us if you are interested in setting up a bus route, or if you would like to know more about reimbursement.
+					</div>
+				</div>
+				<div class="faq-section">
+					<h2 class="faq-section-question">
+						Will there be awards?
+					</h2>
+					<div class="faq-section-answer hidden">
+						Yes, you will be able to win prizes for exceptional awesomeness. Specific prizes and prize categories will be announced closer to the event date, but all our prizes will be based on solving real problems. Therefore, unlike other hackathons, we do not have any API prizes, instead we will be awarding prizes for “Best Hack that Addresses Fitness or Mental Health.” This allows us to award prizes for exceptional overall work, thinking, and problem solving, not just based upon use of a particular product or gluing APIs together. 
+
+					</div>
+				</div>
+				<div class="faq-section">
+					<h2 class="faq-section-question">
+						But it’s 48 hours long won’t I get hungry?
+					</h2>
+					<div class="faq-section-answer hidden">
+						Yes, yes you will. That is why we will provide regular meals and snacks throughout the entire hackathon from amazing vendors like the one and only Seoul Taco and the incredible Pi Pizza. Other specific delicious vendors to be announced soon. 
+					</div>
+				</div>
+				<div class="faq-section">
+					<h2 class="faq-section-question">
+						How much does this shindig cost?
+					</h2>
+					<div class="faq-section-answer hidden">
+						For you, nothing! Our wonderful sponsors have made it possible for us to give you a completely free event, food included.
+					</div>
+				</div>
+				<div class="faq-section">
+					<h2 class="faq-section-question">
+						What is the water situation?
+					</h2>
+					<div class="faq-section-answer hidden">
+						Wash U has a policy banning any non-reusable water bottles on its premises so please bring your own reusable water bottle. There are a bunch of water fountains in every building, but we will not be able to provide you with water bottles.
+					</div>
+				</div>
+			</div>
+			<div id="faq-email">Have any other questions? Email us at <a class="faq-email-link" href="mailto:info@archhacks.io">info@archhacks.io</a></div>
+		</div>
+	</div>
+	<!-- Logistics -->
+<!-- 	<div id="page-header">
+		<div id="page-title-wrapper"><h1 id="page-title-logistics" class="page-title">Logistics</h1></div>
+	</div>
+	<div id="logistics-pane" class="homepage-pane">
+		<div class="pane-nav-wrapper">
+			<div class="pane-nav">
+				<div class="pane-nav-click logistics-schedule-click logistics-click">Schedule</div>
+				<div class="pane-nav-click logistics-map-click logistics-click">Maps</div>
+			</div>
+		</div>
+
+		<div class="pane-content logistics-schedule-pane">
+		Schedule Pane
+		</div>
+
+		<div class="pane-content logistics-map-pane">
+		Map Pane
+		</div>
+	</div> -->
+
+
+	<!-- FOOTER -->
+	<footer>
+		<div class="section group pane-content footer-content">
+			<div class="footer-col1 col span_1_of_3">
+				<div class="footer-click footer-click-apply"><h2>Apply</h2></div>
+				<div class="footer-click footer-click-about"><h2>About</h2></div>
+				<div class="footer-click footer-click-schedule"><h2>Schedule</h2></div>
+				<div class="footer-click footer-click-sponsor"><h2>Sponsors</h2></div>
+				<div class="footer-click footer-click-team"><h2>Our Team</h2></div>
+				<div class="footer-click footer-click-faq"><h2>FAQ</h2></div>
+			</div>
+			<div class="footer-col2 col span_1_of_3">
+				<div id=footer-email><a class="footer-email-link" href="mailto:info@archhacks.io">info@archhacks.io</a></div>
+				<div id="footer-social">
+					<a href="https://www.facebook.com/archhacks/" target="_blank"><i class="fa fa-facebook-square"></i></a>
+					<a href="https://twitter.com/ArchHacks" target="_blank"><i class="fa fa-twitter-square"></i></a>
+					<a href="https://www.instagram.com/archhacks/" target="_blank"><i class="fa fa-instagram"></i></a>
+					<a href="https://medium.com/@ArchHacks" target="_blank"><i class="fa fa-medium"></i></a>
+				</div>
+			</div>
+			<div class="footer-col3 col span_1_of_3">
+				<img id="footer-logo" src="static/images/archhackslogo-white.png" alt="Logo" />
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
+

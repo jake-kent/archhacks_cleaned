@@ -1,0 +1,2752 @@
+[
+  {
+    "school": "University of Florida",
+    "city,state": "Gainesville, FL",
+    "driving_time": "12 hours 39 mins",
+    "within_driving_range": "TRUE",
+    "address": "Gainesville, FL 32611, United States",
+    "lat": 29.6130239,
+    "lng": -82.371937,
+    "application_count": 29
+  },
+  {
+    "school": "University of Maryland College Park",
+    "city,state": "College Park, MD",
+    "driving_time": "12 hours 33 mins",
+    "within_driving_range": "TRUE",
+    "address": "College Park, MD 20742, United States",
+    "lat": 38.9908487,
+    "lng": -76.944141,
+    "application_count": 7
+  },
+  {
+    "school": "Wesleyan University",
+    "city,state": "Middletown, CT",
+    "driving_time": "16 hours 5 mins",
+    "within_driving_range": "FALSE",
+    "address": "45 Wyllys Ave, Middletown, CT 06459, United States",
+    "lat": 41.5567408,
+    "lng": -72.6567891,
+    "application_count": 1
+  },
+  {
+    "school": "Farmingdale State College",
+    "city,state": "Farmingdale, NY",
+    "driving_time": "15 hours 18 mins",
+    "within_driving_range": "FALSE",
+    "address": "2350 Broadhollow Rd, Farmingdale, NY 11735, United States",
+    "lat": 40.7558809,
+    "lng": -73.4237221,
+    "application_count": 1
+  },
+  {
+    "school": "University of Waterloo",
+    "city,state": "Waterloo, ON",
+    "driving_time": "10 hours 58 mins",
+    "within_driving_range": "TRUE",
+    "address": "200 University Ave W, Waterloo, ON N2L 3G1, Canada",
+    "lat": 43.4692469,
+    "lng": -80.5403143,
+    "application_count": 96
+  },
+  {
+    "school": "University of Missouri, Saint Louis",
+    "city,state": "St. Louis, MO",
+    "driving_time": "18 mins",
+    "within_driving_range": "TRUE",
+    "address": "1 University Blvd, St. Louis, MO 63121, United States",
+    "lat": 38.710213,
+    "lng": -90.3110809,
+    "application_count": 3
+  },
+  {
+    "school": "University of San Francisco",
+    "city,state": "San Francisco, CA",
+    "driving_time": "1 day 6 hours",
+    "within_driving_range": "FALSE",
+    "address": "2130 Fulton St, San Francisco, CA 94117, United States",
+    "lat": 37.7765651,
+    "lng": -122.4502614,
+    "application_count": 4
+  },
+  {
+    "school": "University of California, Los Angeles",
+    "city,state": "Los Angeles, CA",
+    "driving_time": "1 day 2 hours",
+    "within_driving_range": "FALSE",
+    "address": "Los Angeles, CA 90095, United States",
+    "lat": 34.070264,
+    "lng": -118.4440562,
+    "application_count": 1
+  },
+  {
+    "school": "Miami University",
+    "city,state": "Oxford, OH",
+    "driving_time": "5 hours 28 mins",
+    "within_driving_range": "TRUE",
+    "address": "501 E High St, Oxford, OH 45056, United States",
+    "lat": 39.5086906,
+    "lng": -84.7300176,
+    "application_count": 2
+  },
+  {
+    "school": "Illinois State University",
+    "city,state": "Normal, IL",
+    "driving_time": "2 hours 39 mins",
+    "within_driving_range": "TRUE",
+    "address": "100 N University St, Normal, IL 61761, United States",
+    "lat": 40.5114723,
+    "lng": -88.9923301,
+    "application_count": 2
+  },
+  {
+    "school": "Florida International University",
+    "city,state": "Miami, FL",
+    "driving_time": "17 hours 21 mins",
+    "within_driving_range": "FALSE",
+    "address": "11200 SW 8th St, Miami, FL 33199, United States",
+    "lat": 25.7569899,
+    "lng": -80.3796273,
+    "application_count": 6
+  },
+  {
+    "school": "Stanford University",
+    "city,state": "Stanford, CA",
+    "driving_time": "1 day 6 hours",
+    "within_driving_range": "FALSE",
+    "address": "450 Serra Mall, Stanford, CA 94305, United States",
+    "lat": 37.4275172,
+    "lng": -122.170233,
+    "application_count": 6
+  },
+  {
+    "school": "University of Michigan",
+    "city,state": "Ann Arbor, MI",
+    "driving_time": "7 hours 35 mins",
+    "within_driving_range": "TRUE",
+    "address": "500 S State St, Ann Arbor, MI 48109, United States",
+    "lat": 42.2761921,
+    "lng": -83.7413068,
+    "application_count": 8
+  },
+  {
+    "school": "University of Pennsylvania",
+    "city,state": "Philadelphia, PA",
+    "driving_time": "13 hours 24 mins",
+    "within_driving_range": "TRUE",
+    "address": "Philadelphia, PA 19104, United States",
+    "lat": 39.9583587,
+    "lng": -75.1953934,
+    "application_count": 7
+  },
+  {
+    "school": "Union County College",
+    "city,state": "Cranford, NJ",
+    "driving_time": "14 hours 13 mins",
+    "within_driving_range": "FALSE",
+    "address": "1033 Springfield Ave, Cranford, NJ 07016, United States",
+    "lat": 40.6677,
+    "lng": -74.3202,
+    "application_count": 2
+  },
+  {
+    "school": "DePauw University",
+    "city,state": "Greencastle, IN",
+    "driving_time": "3 hours 23 mins",
+    "within_driving_range": "TRUE",
+    "address": "Greencastle, IN 46135, United States",
+    "lat": 39.6444898,
+    "lng": -86.8647316,
+    "application_count": 1
+  },
+  {
+    "school": "Vassar College",
+    "city,state": "Poughkeepsie, NY",
+    "driving_time": "15 hours 7 mins",
+    "within_driving_range": "FALSE",
+    "address": "124 Raymond Ave, Poughkeepsie, NY 12604, United States",
+    "lat": 41.6865267,
+    "lng": -73.8981091,
+    "application_count": 2
+  },
+  {
+    "school": "University of Illinois Peoria",
+    "city,state": "Peoria, IL",
+    "driving_time": "2 hours 38 mins",
+    "within_driving_range": "TRUE",
+    "address": "1 Illini Dr, Peoria, IL 61605, United States",
+    "lat": 40.6972158,
+    "lng": -89.5984105,
+    "application_count": 2
+  },
+  {
+    "school": "University of British Columbia",
+    "city,state": "Vancouver, BC",
+    "driving_time": "1 day 8 hours",
+    "within_driving_range": "FALSE",
+    "address": "2329 West Mall, Vancouver, BC V6T 1Z4, Canada",
+    "lat": 49.2613118,
+    "lng": -123.2537831,
+    "application_count": 6
+  },
+  {
+    "school": "University of Manitoba",
+    "city,state": "Winnipeg, MB",
+    "driving_time": "14 hours 56 mins",
+    "within_driving_range": "FALSE",
+    "address": "66 Chancellors Cir, Winnipeg, MB R3T 2N2, Canada",
+    "lat": 49.809962,
+    "lng": -97.1344368,
+    "application_count": 5
+  },
+  {
+    "school": "National Taiwan University of Science and Technology",
+    "city,state": "Taiwan, Taipei City",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "No. 43, Section 4, Keelung Rd, Da’an District, Taipei City, Taiwan 106",
+    "lat": 25.0261583,
+    "lng": 121.5427093,
+    "application_count": 1
+  },
+  {
+    "school": "University of Texas, Dallas",
+    "city,state": "Richardson, TX",
+    "driving_time": "9 hours 29 mins",
+    "within_driving_range": "TRUE",
+    "address": "800 W Campbell Rd, Richardson, TX 75080, United States",
+    "lat": 32.9851001,
+    "lng": -96.7494271,
+    "application_count": 12
+  },
+  {
+    "school": "Beihang University China",
+    "city,state": "Beijing, Beijing Shi",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "37 Xueyuan Rd, Haidian, Beijing, China",
+    "lat": 39.983086,
+    "lng": 116.343462,
+    "application_count": 2
+  },
+  {
+    "school": "Temple University",
+    "city,state": "Philadelphia, PA",
+    "driving_time": "13 hours 29 mins",
+    "within_driving_range": "TRUE",
+    "address": "1801 N Broad St, Philadelphia, PA 19122, United States",
+    "lat": 39.981067,
+    "lng": -75.1578681,
+    "application_count": 3
+  },
+  {
+    "school": "Mission College",
+    "city,state": "Santa Clara, CA",
+    "driving_time": "1 day 6 hours",
+    "within_driving_range": "FALSE",
+    "address": "3000 Mission College Blvd, Santa Clara, CA 95054, United States",
+    "lat": 37.3912164,
+    "lng": -121.9820461,
+    "application_count": 2
+  },
+  {
+    "school": "Boston University",
+    "city,state": "Boston, MA",
+    "driving_time": "17 hours 37 mins",
+    "within_driving_range": "FALSE",
+    "address": "Boston, MA 02215, United States",
+    "lat": 42.3476181,
+    "lng": -71.1002881,
+    "application_count": 3
+  },
+  {
+    "school": "Brigham Young University",
+    "city,state": "Provo, UT",
+    "driving_time": "19 hours 16 mins",
+    "within_driving_range": "FALSE",
+    "address": "Provo, UT 84602, United States",
+    "lat": 40.2524308,
+    "lng": -111.6502622,
+    "application_count": 1
+  },
+  {
+    "school": "Binghamton University",
+    "city,state": "Vestal, NY",
+    "driving_time": "13 hours 36 mins",
+    "within_driving_range": "TRUE",
+    "address": "4400 Vestal Pkwy E, Binghamton, NY 13902, United States",
+    "lat": 42.0920979,
+    "lng": -75.9480927,
+    "application_count": 4
+  },
+  {
+    "school": "Dalhousie University",
+    "city,state": "Halifax, NS",
+    "driving_time": "1 day 4 hours",
+    "within_driving_range": "FALSE",
+    "address": "6299 South St, Halifax, NS B3H 4R2, Canada",
+    "lat": 44.6361621,
+    "lng": -63.5931373,
+    "application_count": 2
+  },
+  {
+    "school": "Mary Institute and St. Louis Country Day School (MICDS)",
+    "city,state": "St. Louis, MO",
+    "driving_time": "13 mins",
+    "within_driving_range": "TRUE",
+    "address": "101 N Warson Rd, St. Louis, MO 63124, United States",
+    "lat": 38.6582352,
+    "lng": -90.3964945,
+    "application_count": 1
+  },
+  {
+    "school": "McMaster University",
+    "city,state": "Hamilton, ON",
+    "driving_time": "11 hours 3 mins",
+    "within_driving_range": "TRUE",
+    "address": "1280 Main St W, Hamilton, ON L8S 4L8, Canada",
+    "lat": 43.2622445,
+    "lng": -79.9202861,
+    "application_count": 7
+  },
+  {
+    "school": "Illinois Institute of Technology",
+    "city,state": "Chicago, IL",
+    "driving_time": "4 hours 26 mins",
+    "within_driving_range": "TRUE",
+    "address": "3300 S Federal St, Chicago, IL 60616, United States",
+    "lat": 41.835017,
+    "lng": -87.627381,
+    "application_count": 2
+  },
+  {
+    "school": "Harvard University",
+    "city,state": "Cambridge, MA",
+    "driving_time": "17 hours 39 mins",
+    "within_driving_range": "FALSE",
+    "address": "Cambridge, MA 02138, United States",
+    "lat": 42.3803274,
+    "lng": -71.1389101,
+    "application_count": 11
+  },
+  {
+    "school": "Istanbul University",
+    "city,state": "Turkey, İstanbul",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "Beyazıt, 34452 Fatih/İstanbul, Turkey",
+    "lat": 41.012355,
+    "lng": 28.96203,
+    "application_count": 2
+  },
+  {
+    "school": "Lehigh University",
+    "city,state": "Bethlehem, PA",
+    "driving_time": "13 hours 16 mins",
+    "within_driving_range": "TRUE",
+    "address": "27 Memorial Dr W, Bethlehem, PA 18015, United States",
+    "lat": 40.6067766,
+    "lng": -75.3801646,
+    "application_count": 1
+  },
+  {
+    "school": "Drexel University",
+    "city,state": "Philadelphia, PA",
+    "driving_time": "13 hours 22 mins",
+    "within_driving_range": "TRUE",
+    "address": "3141 Chestnut St, Philadelphia, PA 19104, United States",
+    "lat": 39.9541016,
+    "lng": -75.1869029,
+    "application_count": 3
+  },
+  {
+    "school": "Wellesley High School",
+    "city,state": "Wellesley, MA",
+    "driving_time": "17 hours 33 mins",
+    "within_driving_range": "FALSE",
+    "address": "50 Rice St, Wellesley Hills, MA 02481, United States",
+    "lat": 42.302802,
+    "lng": -71.279079,
+    "application_count": 2
+  },
+  {
+    "school": "UC Berkeley",
+    "city,state": "Berkeley, CA",
+    "driving_time": "1 day 5 hours",
+    "within_driving_range": "FALSE",
+    "address": "Berkeley, CA, United States",
+    "lat": 37.8715926,
+    "lng": -122.272747,
+    "application_count": 21
+  },
+  {
+    "school": "Clonlara School",
+    "city,state": "Ann Arbor, MI",
+    "driving_time": "7 hours 34 mins",
+    "within_driving_range": "TRUE",
+    "address": "1289 Jewett Ave, Ann Arbor, MI 48104, United States",
+    "lat": 42.2542707,
+    "lng": -83.7312297,
+    "application_count": 1
+  },
+  {
+    "school": "Maharaja Surajmal Institute of Technology",
+    "city,state": "New Delhi, DL",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "C-4, Lal Sain Mandir Marg, Janak Puri, New Delhi, Delhi 110058, India",
+    "lat": 28.6216137,
+    "lng": 77.0896657,
+    "application_count": 2
+  },
+  {
+    "school": "Bloomfield Hills High School",
+    "city,state": "Bloomfield Township, MI",
+    "driving_time": "8 hours 11 mins",
+    "within_driving_range": "TRUE",
+    "address": "4200 Andover Rd, Bloomfield Twp, MI 48302, United States",
+    "lat": 42.5789183,
+    "lng": -83.2855279,
+    "application_count": 2
+  },
+  {
+    "school": "Vanderbilt University",
+    "city,state": "Nashville, TN",
+    "driving_time": "4 hours 38 mins",
+    "within_driving_range": "TRUE",
+    "address": "2201 West End Ave, Nashville, TN 37235, United States",
+    "lat": 36.1486927,
+    "lng": -86.8037597,
+    "application_count": 8
+  },
+  {
+    "school": "University of Nebraska at Omaha",
+    "city,state": "Omaha, NE",
+    "driving_time": "6 hours 23 mins",
+    "within_driving_range": "TRUE",
+    "address": "6001 Dodge St, Omaha, NE 68182, United States",
+    "lat": 41.2581216,
+    "lng": -96.0107121,
+    "application_count": 1
+  },
+  {
+    "school": "Leiden University",
+    "city,state": "Leiden, ZH",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "Rapenburg 70, 2311 EZ Leiden, Netherlands",
+    "lat": 52.1566622,
+    "lng": 4.4867594,
+    "application_count": 1
+  },
+  {
+    "school": "University of Illinois at Chicago",
+    "city,state": "Chicago, IL",
+    "driving_time": "4 hours 29 mins",
+    "within_driving_range": "TRUE",
+    "address": "700 S Halsted St, Chicago, IL 60607, United States",
+    "lat": 41.8719124,
+    "lng": -87.6479481,
+    "application_count": 19
+  },
+  {
+    "school": "University of Minnesota",
+    "city,state": "Minneapolis, MN",
+    "driving_time": "8 hours 24 mins",
+    "within_driving_range": "TRUE",
+    "address": "Minneapolis, MN 55455, United States",
+    "lat": 44.9741561,
+    "lng": -93.2342,
+    "application_count": 11
+  },
+  {
+    "school": "University of Missouri, Columbia",
+    "city,state": "Columbia, MO",
+    "driving_time": "2 hours 0 mins",
+    "within_driving_range": "TRUE",
+    "address": "Columbia, MO 65211, United States",
+    "lat": 38.9331391,
+    "lng": -92.3738037,
+    "application_count": 8
+  },
+  {
+    "school": "Washington University in St. Louis",
+    "city,state": "University City, MO",
+    "driving_time": "1 min",
+    "within_driving_range": "TRUE",
+    "address": "1 Brookings Dr, St. Louis, MO 63130, United States",
+    "lat": 38.6470653,
+    "lng": -90.3026346,
+    "application_count": 154
+  },
+  {
+    "school": "University of Colorado Boulder",
+    "city,state": "Boulder, CO",
+    "driving_time": "12 hours 17 mins",
+    "within_driving_range": "TRUE",
+    "address": "Boulder, CO, United States",
+    "lat": 40.0149856,
+    "lng": -105.2705456,
+    "application_count": 4
+  },
+  {
+    "school": "Johns Hopkins University",
+    "city,state": "Baltimore, MD",
+    "driving_time": "12 hours 43 mins",
+    "within_driving_range": "TRUE",
+    "address": "Baltimore, MD 21218, United States",
+    "lat": 39.3322127,
+    "lng": -76.6008334,
+    "application_count": 5
+  },
+  {
+    "school": "Centennial Collegiate Vocational Institute",
+    "city,state": "Guelph, ON",
+    "driving_time": "11 hours 0 mins",
+    "within_driving_range": "TRUE",
+    "address": "289 College Ave W, Guelph, ON N1G 1S8, Canada",
+    "lat": 43.5230543,
+    "lng": -80.248938,
+    "application_count": 1
+  },
+  {
+    "school": "Georgia Tech",
+    "city,state": "Atlanta, GA",
+    "driving_time": "8 hours 5 mins",
+    "within_driving_range": "TRUE",
+    "address": "North Ave NW, Atlanta, GA 30332, United States",
+    "lat": 33.771288,
+    "lng": -84.392056,
+    "application_count": 97
+  },
+  {
+    "school": "Netaji Subhas Institute of Technology, New Delhi",
+    "city,state": "New Delhi, DL",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "Azad Hind Fauz Marg, Sector 3,Dwarka, New Delhi, Delhi 110078, India",
+    "lat": 28.6056197,
+    "lng": 77.0365751,
+    "application_count": 0
+  },
+  {
+    "school": "Rutgers University",
+    "city,state": "New Brunswick, NJ",
+    "driving_time": "14 hours 5 mins",
+    "within_driving_range": "FALSE",
+    "address": "55 Commercial Ave, New Brunswick, NJ 08901, United States",
+    "lat": 40.4879197,
+    "lng": -74.4397285,
+    "application_count": 5
+  },
+  {
+    "school": "Vincent Massey Secondary School",
+    "city,state": "Windsor, ON",
+    "driving_time": "8 hours 15 mins",
+    "within_driving_range": "TRUE",
+    "address": "1800 Liberty St, Windsor, ON N9E 1J2, Canada",
+    "lat": 42.260281,
+    "lng": -83.027893,
+    "application_count": 1
+  },
+  {
+    "school": "University of Oxford",
+    "city,state": "Oxford, England",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "Oxford, United Kingdom",
+    "lat": 51.7520209,
+    "lng": -1.2577263,
+    "application_count": 1
+  },
+  {
+    "school": "University of Texas, Austin",
+    "city,state": "Austin, TX",
+    "driving_time": "12 hours 28 mins",
+    "within_driving_range": "TRUE",
+    "address": "Austin, TX 78712, United States",
+    "lat": 30.2835151,
+    "lng": -97.7348805,
+    "application_count": 14
+  },
+  {
+    "school": "University of North Texas",
+    "city,state": "Denton, TX",
+    "driving_time": "9 hours 33 mins",
+    "within_driving_range": "TRUE",
+    "address": "1155 Union Cir, Denton, TX 76203, United States",
+    "lat": 33.2106588,
+    "lng": -97.1472614,
+    "application_count": 1
+  },
+  {
+    "school": "University of Massachusetts Amherst",
+    "city,state": "Amherst, MA",
+    "driving_time": "16 hours 49 mins",
+    "within_driving_range": "FALSE",
+    "address": "Amherst, MA 01003, United States",
+    "lat": 42.3956556,
+    "lng": -72.5219617,
+    "application_count": 1
+  },
+  {
+    "school": "Colorado School of Mines",
+    "city,state": "Golden, CO",
+    "driving_time": "12 hours 8 mins",
+    "within_driving_range": "TRUE",
+    "address": "1500 Illinois St, Golden, CO 80401, United States",
+    "lat": 39.7510216,
+    "lng": -105.2225769,
+    "application_count": 1
+  },
+  {
+    "school": "California Institute of Technology",
+    "city,state": "Pasadena, CA",
+    "driving_time": "1 day 2 hours",
+    "within_driving_range": "FALSE",
+    "address": "1200 E California Blvd, Pasadena, CA 91125, United States",
+    "lat": 34.1390112,
+    "lng": -118.1245135,
+    "application_count": 1
+  },
+  {
+    "school": "New York University",
+    "city,state": "New York, NY",
+    "driving_time": "14 hours 33 mins",
+    "within_driving_range": "FALSE",
+    "address": "New York, NY, United States",
+    "lat": 40.7127837,
+    "lng": -74.0059413,
+    "application_count": 4
+  },
+  {
+    "school": "Bilkent University, Ankara, Turkey",
+    "city,state": "Turkey, Ankara",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "6800 Bilkent/Ankara, Turkey",
+    "lat": 39.8902562,
+    "lng": 32.7664158,
+    "application_count": 1
+  },
+  {
+    "school": "University of Massachusetts Lowell",
+    "city,state": "Lowell, MA",
+    "driving_time": "17 hours 48 mins",
+    "within_driving_range": "FALSE",
+    "address": "1 University Ave, Lowell, MA 01852, United States",
+    "lat": 42.6549033,
+    "lng": -71.3247292,
+    "application_count": 1
+  },
+  {
+    "school": "Providence High School",
+    "city,state": "Charlotte, NC",
+    "driving_time": "11 hours 0 mins",
+    "within_driving_range": "TRUE",
+    "address": "1800 Pineville-Matthews Rd, Charlotte, NC 28270, United States",
+    "lat": 35.1117205,
+    "lng": -80.764325,
+    "application_count": 1
+  },
+  {
+    "school": "Birla Institute of Technology, Mesra",
+    "city,state": "Mesra, JH",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "Mesra, Ranchi, Jharkhand 835215, India",
+    "lat": 23.4306419,
+    "lng": 85.4153741,
+    "application_count": 1
+  },
+  {
+    "school": "University of Illinois, Urbana-Champaign",
+    "city,state": "Champaign, IL",
+    "driving_time": "2 hours 50 mins",
+    "within_driving_range": "TRUE",
+    "address": "Champaign, IL, United States",
+    "lat": 40.1164204,
+    "lng": -88.2433829,
+    "application_count": 99
+  },
+  {
+    "school": "University of Science and Technology Houari Boumedienne",
+    "city,state": "",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "BP 32 El Alia 16111, Bab Ezzouar 16111, Algeria",
+    "lat": 36.711198,
+    "lng": 3.181066,
+    "application_count": 1
+  },
+  {
+    "school": "University of Southern California",
+    "city,state": "Los Angeles, CA",
+    "driving_time": "1 day 2 hours",
+    "within_driving_range": "FALSE",
+    "address": "Los Angeles, CA, United States",
+    "lat": 34.0522342,
+    "lng": -118.2436849,
+    "application_count": 10
+  },
+  {
+    "school": "The George Washington University",
+    "city,state": "Washington, DC",
+    "driving_time": "12 hours 34 mins",
+    "within_driving_range": "TRUE",
+    "address": "2121 I St NW, Washington, DC 20052, United States",
+    "lat": 38.9009637,
+    "lng": -77.0476606,
+    "application_count": 1
+  },
+  {
+    "school": "Maryville University",
+    "city,state": "St. Louis, MO",
+    "driving_time": "20 mins",
+    "within_driving_range": "TRUE",
+    "address": "650 Maryville University Dr, St. Louis, MO 63141, United States",
+    "lat": 38.6478618,
+    "lng": -90.505188,
+    "application_count": 2
+  },
+  {
+    "school": "Illinois Institute of Technology",
+    "city,state": "Chicago, IL",
+    "driving_time": "4 hours 26 mins",
+    "within_driving_range": "TRUE",
+    "address": "3300 S Federal St, Chicago, IL 60616, United States",
+    "lat": 41.8343395,
+    "lng": -87.6237866,
+    "application_count": 12
+  },
+  {
+    "school": "University of Virginia",
+    "city,state": "Charlottesville, VA",
+    "driving_time": "11 hours 8 mins",
+    "within_driving_range": "TRUE",
+    "address": "Charlottesville, VA, United States",
+    "lat": 38.0293059,
+    "lng": -78.4766781,
+    "application_count": 11
+  },
+  {
+    "school": "M'sila university",
+    "city,state": "M'Sila, M'sila",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "Siège de la wilaya de M'sila, M'Sila 28000, Algeria",
+    "lat": 35.7048423,
+    "lng": 4.5382694,
+    "application_count": 1
+  },
+  {
+    "school": "Case Western Reserve University",
+    "city,state": "Cleveland, OH",
+    "driving_time": "8 hours 30 mins",
+    "within_driving_range": "TRUE",
+    "address": "10900 Euclid Ave, Cleveland, OH 44106, United States",
+    "lat": 41.5074022,
+    "lng": -81.6083276,
+    "application_count": 2
+  },
+  {
+    "school": "Princeton University",
+    "city,state": "Princeton, NJ",
+    "driving_time": "13 hours 53 mins",
+    "within_driving_range": "TRUE",
+    "address": "Princeton, NJ 08544, United States",
+    "lat": 40.3467174,
+    "lng": -74.6568772,
+    "application_count": 3
+  },
+  {
+    "school": "Swarthmore College",
+    "city,state": "Swarthmore, PA",
+    "driving_time": "13 hours 22 mins",
+    "within_driving_range": "TRUE",
+    "address": "500 College Ave, Swarthmore, PA 19081, United States",
+    "lat": 39.9069574,
+    "lng": -75.351473,
+    "application_count": 1
+  },
+  {
+    "school": "Michigan State University",
+    "city,state": "East Lansing, MI",
+    "driving_time": "7 hours 13 mins",
+    "within_driving_range": "TRUE",
+    "address": "220 Trowbridge Rd, East Lansing, MI 48824, United States",
+    "lat": 42.7199075,
+    "lng": -84.4922665,
+    "application_count": 3
+  },
+  {
+    "school": "Stony Brook University",
+    "city,state": "Stony Brook, NY",
+    "driving_time": "15 hours 45 mins",
+    "within_driving_range": "FALSE",
+    "address": "Stony Brook, NY 11794, United States",
+    "lat": 40.9132244,
+    "lng": -73.1261091,
+    "application_count": 1
+  },
+  {
+    "school": "Purdue University",
+    "city,state": "West Lafayette, IN",
+    "driving_time": "4 hours 20 mins",
+    "within_driving_range": "TRUE",
+    "address": "610 Purdue Mall, West Lafayette, IN 47907, United States",
+    "lat": 40.4282261,
+    "lng": -86.9144194,
+    "application_count": 175
+  },
+  {
+    "school": "Massachusetts Institute of Technology",
+    "city,state": "Cambridge, MA",
+    "driving_time": "17 hours 38 mins",
+    "within_driving_range": "FALSE",
+    "address": "77 Massachusetts Ave, Cambridge, MA 02139, United States",
+    "lat": 42.359858,
+    "lng": -71.0991299,
+    "application_count": 8
+  },
+  {
+    "school": "Rhode Island School of Design",
+    "city,state": "Providence, RI",
+    "driving_time": "17 hours 19 mins",
+    "within_driving_range": "FALSE",
+    "address": "2 College St, Providence, RI 02903, United States",
+    "lat": 41.8258538,
+    "lng": -71.4077368,
+    "application_count": 1
+  },
+  {
+    "school": "The German University in Cairo",
+    "city,state": "New Cairo City, Cairo Governorate",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "The 5th Settlement, Cairo Governorate 11432, Egypt",
+    "lat": 29.9964931,
+    "lng": 31.4310019,
+    "application_count": 1
+  },
+  {
+    "school": "University of Missouri, Kansas City",
+    "city,state": "Kansas City, MO",
+    "driving_time": "3 hours 43 mins",
+    "within_driving_range": "TRUE",
+    "address": "5100 Rockhill Rd, Kansas City, MO 64110, United States",
+    "lat": 39.0336695,
+    "lng": -94.5762777,
+    "application_count": 5
+  },
+  {
+    "school": "Lindenwood University",
+    "city,state": "Saint Charles, MO",
+    "driving_time": "27 mins",
+    "within_driving_range": "TRUE",
+    "address": "209 S Kingshighway St, St Charles, MO 63301, United States",
+    "lat": 38.7866492,
+    "lng": -90.503688,
+    "application_count": 2
+  },
+  {
+    "school": "University of North Carolina at Chapel Hill",
+    "city,state": "Chapel Hill, NC",
+    "driving_time": "11 hours 55 mins",
+    "within_driving_range": "TRUE",
+    "address": "Chapel Hill, NC, United States",
+    "lat": 35.9131996,
+    "lng": -79.0558445,
+    "application_count": 1
+  },
+  {
+    "school": "Georgia State University",
+    "city,state": "Atlanta, GA",
+    "driving_time": "8 hours 11 mins",
+    "within_driving_range": "TRUE",
+    "address": "Atlanta, GA 30302, United States",
+    "lat": 33.753362,
+    "lng": -84.38555,
+    "application_count": 2
+  },
+  {
+    "school": "Case Western",
+    "city,state": "Cleveland, OH",
+    "driving_time": "8 hours 30 mins",
+    "within_driving_range": "TRUE",
+    "address": "10900 Euclid Ave, Cleveland, OH 44106, United States",
+    "lat": 41.5074022,
+    "lng": -81.6083276,
+    "application_count": 2
+  },
+  {
+    "school": "Northwestern University",
+    "city,state": "Evanston, IL",
+    "driving_time": "4 hours 56 mins",
+    "within_driving_range": "TRUE",
+    "address": "633 Clark St, Evanston, IL 60208, United States",
+    "lat": 42.0505569,
+    "lng": -87.6797281,
+    "application_count": 32
+  },
+  {
+    "school": "Yale University",
+    "city,state": "New Haven, CT",
+    "driving_time": "15 hours 48 mins",
+    "within_driving_range": "FALSE",
+    "address": "New Haven, CT 06520, United States",
+    "lat": 41.3065186,
+    "lng": -72.9310714,
+    "application_count": 2
+  },
+  {
+    "school": "Wellesley College",
+    "city,state": "Wellesley, MA",
+    "driving_time": "17 hours 31 mins",
+    "within_driving_range": "FALSE",
+    "address": "106 Central St, Wellesley, MA 02481, United States",
+    "lat": 42.2930684,
+    "lng": -71.3085829,
+    "application_count": 3
+  },
+  {
+    "school": "University of Chicago",
+    "city,state": "Chicago, IL",
+    "driving_time": "4 hours 34 mins",
+    "within_driving_range": "TRUE",
+    "address": "5801 S Ellis Ave, Chicago, IL 60637, United States",
+    "lat": 41.7895697,
+    "lng": -87.6009148,
+    "application_count": 12
+  },
+  {
+    "school": "Cornell University",
+    "city,state": "Ithaca, NY",
+    "driving_time": "13 hours 18 mins",
+    "within_driving_range": "TRUE",
+    "address": "Ithaca, NY 14850, United States",
+    "lat": 42.4439614,
+    "lng": -76.5018807,
+    "application_count": 13
+  },
+  {
+    "school": "Delhi Technological University",
+    "city,state": "New Delhi, DL",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "Shahbad Daulatpur, Main Bawana Road, New Delhi, Delhi 110042, India",
+    "lat": 28.8215276,
+    "lng": 77.066219,
+    "application_count": 2
+  },
+  {
+    "school": "Missouri University of Science & Technology",
+    "city,state": "Rolla, MO",
+    "driving_time": "1 hour 39 mins",
+    "within_driving_range": "TRUE",
+    "address": "300 W 14th St, Rolla, MO 65409, United States",
+    "lat": 37.9551651,
+    "lng": -91.7714605,
+    "application_count": 12
+  },
+  {
+    "school": "Texas A&M University",
+    "city,state": "College Station, TX",
+    "driving_time": "12 hours 20 mins",
+    "within_driving_range": "TRUE",
+    "address": "Rudder Complex, 401 Joe Routt Blvd, College Station, TX 77843, United States",
+    "lat": 30.6133001,
+    "lng": -96.339924,
+    "application_count": 3
+  },
+  {
+    "school": "University of Ontario Institute of Technology",
+    "city,state": "Oshawa, ON",
+    "driving_time": "12 hours 3 mins",
+    "within_driving_range": "TRUE",
+    "address": "2000 Simcoe St N, Oshawa, ON L1H 7K4, Canada",
+    "lat": 43.9455084,
+    "lng": -78.8946325,
+    "application_count": 3
+  },
+  {
+    "school": "Oakland Community College",
+    "city,state": "Bloomfield Hills, MI",
+    "driving_time": "8 hours 18 mins",
+    "within_driving_range": "TRUE",
+    "address": "2480 Opdyke Rd, Bloomfield Hills, MI 48304, United States",
+    "lat": 42.5954202,
+    "lng": -83.2447876,
+    "application_count": 1
+  },
+  {
+    "school": "Kean University",
+    "city,state": "Union, NJ",
+    "driving_time": "14 hours 14 mins",
+    "within_driving_range": "FALSE",
+    "address": "1000 Morris Ave, Union, NJ 07083, United States",
+    "lat": 40.679867,
+    "lng": -74.2309421,
+    "application_count": 1
+  },
+  {
+    "school": "Indiana University",
+    "city,state": "Bloomington, IN",
+    "driving_time": "3 hours 53 mins",
+    "within_driving_range": "TRUE",
+    "address": "107 S Indiana Ave, Bloomington, IN 47405, United States",
+    "lat": 39.1661123,
+    "lng": -86.5265247,
+    "application_count": 17
+  },
+  {
+    "school": "Southern Illinois University Edwardsville",
+    "city,state": "Edwardsville, IL",
+    "driving_time": "34 mins",
+    "within_driving_range": "TRUE",
+    "address": "1 Hairpin Dr, Edwardsville, IL 62026, United States",
+    "lat": 38.7930622,
+    "lng": -89.9967072,
+    "application_count": 10
+  },
+  {
+    "school": "Uppsala university",
+    "city,state": "Uppsala, Uppsala County",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "Uppsala, Sweden",
+    "lat": 59.8585638,
+    "lng": 17.6389267,
+    "application_count": 1
+  },
+  {
+    "school": "Wilkes University",
+    "city,state": "Wilkes-Barre, PA",
+    "driving_time": "13 hours 2 mins",
+    "within_driving_range": "TRUE",
+    "address": "84 W South St, Wilkes-Barre, PA 18701, United States",
+    "lat": 41.2441841,
+    "lng": -75.8902139,
+    "application_count": 1
+  },
+  {
+    "school": "University of Toronto",
+    "city,state": "Toronto, ON",
+    "driving_time": "11 hours 44 mins",
+    "within_driving_range": "TRUE",
+    "address": "27 King's College Cir, Toronto, ON M5S, Canada",
+    "lat": 43.6607392,
+    "lng": -79.3957209,
+    "application_count": 8
+  },
+  {
+    "school": "Dartmouth College",
+    "city,state": "Hanover, NH",
+    "driving_time": "17 hours 42 mins",
+    "within_driving_range": "FALSE",
+    "address": "Hanover, NH 03755, United States",
+    "lat": 43.7019583,
+    "lng": -72.2889045,
+    "application_count": 3
+  },
+  {
+    "school": "Carnegie Mellon University",
+    "city,state": "Pittsburgh, PA",
+    "driving_time": "9 hours 15 mins",
+    "within_driving_range": "TRUE",
+    "address": "5000 Forbes Ave, Pittsburgh, PA 15213, United States",
+    "lat": 40.4434658,
+    "lng": -79.9434567,
+    "application_count": 26
+  },
+  {
+    "school": "Stevens Institute of Technology",
+    "city,state": "Hoboken, NJ",
+    "driving_time": "14 hours 33 mins",
+    "within_driving_range": "FALSE",
+    "address": "1 Castle Point Terrace, Hoboken, NJ 07030, United States",
+    "lat": 40.7469309,
+    "lng": -74.0258336,
+    "application_count": 1
+  },
+  {
+    "school": "Kent State University",
+    "city,state": "Kent, OH",
+    "driving_time": "8 hours 23 mins",
+    "within_driving_range": "TRUE",
+    "address": "800 E Summit St, Kent, OH 44240, United States",
+    "lat": 41.1471302,
+    "lng": -81.3476771,
+    "application_count": 1
+  },
+  {
+    "school": "Seattle Pacific University",
+    "city,state": "Seattle, WA",
+    "driving_time": "1 day 6 hours",
+    "within_driving_range": "FALSE",
+    "address": "3307 3rd Ave W, Seattle, WA 98119, United States",
+    "lat": 47.6489963,
+    "lng": -122.3617214,
+    "application_count": 1
+  },
+  {
+    "school": "University of Louisiana at Monroe",
+    "city,state": "Monroe, LA",
+    "driving_time": "8 hours 39 mins",
+    "within_driving_range": "TRUE",
+    "address": "700 University Ave, Monroe, LA 71209, United States",
+    "lat": 32.5286427,
+    "lng": -92.0724893,
+    "application_count": 2
+  },
+  {
+    "school": "Clark University",
+    "city,state": "Worcester, MA",
+    "driving_time": "17 hours 5 mins",
+    "within_driving_range": "FALSE",
+    "address": "950 Main St, Worcester, MA 01610, United States",
+    "lat": 42.2508613,
+    "lng": -71.8232282,
+    "application_count": 2
+  },
+  {
+    "school": "University of Houston",
+    "city,state": "Houston, TX",
+    "driving_time": "12 hours 30 mins",
+    "within_driving_range": "TRUE",
+    "address": "4800 Calhoun Rd, Houston, TX 77004, United States",
+    "lat": 29.7203238,
+    "lng": -95.3435187,
+    "application_count": 1
+  },
+  {
+    "school": "Liceo Tecnologico Scientifico Salesiani Don Bosco",
+    "city,state": "Corsico, Lombardia",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "Via Niccolò Copernico, 9, Milano MI, Italy",
+    "lat": 45.43685,
+    "lng": 9.10823,
+    "application_count": 1
+  },
+  {
+    "school": "University of California, Merced",
+    "city,state": "Merced, CA",
+    "driving_time": "1 day 5 hours",
+    "within_driving_range": "FALSE",
+    "address": "5200 Lake Rd, Merced, CA 95343, United States",
+    "lat": 37.3637343,
+    "lng": -120.4311096,
+    "application_count": 2
+  },
+  {
+    "school": "University of California, Berkeley",
+    "city,state": "Berkeley, CA",
+    "driving_time": "1 day 5 hours",
+    "within_driving_range": "FALSE",
+    "address": "Berkeley, CA, United States",
+    "lat": 37.8715926,
+    "lng": -122.272747,
+    "application_count": 3
+  },
+  {
+    "school": "Technical University of Munich",
+    "city,state": "München, BY",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "Arcisstraße 21, 80333 München, Germany",
+    "lat": 48.1493505,
+    "lng": 11.5678255,
+    "application_count": 1
+  },
+  {
+    "school": "The New School",
+    "city,state": "New York, NY",
+    "driving_time": "14 hours 34 mins",
+    "within_driving_range": "FALSE",
+    "address": "66 W 12th St, New York, NY 10011, United States",
+    "lat": 40.7354955,
+    "lng": -73.9971373,
+    "application_count": 1
+  },
+  {
+    "school": "Case Western",
+    "city,state": "Cleveland, OH",
+    "driving_time": "8 hours 31 mins",
+    "within_driving_range": "TRUE",
+    "address": "10900 Euclid Ave, Cleveland, OH 44106, United States",
+    "lat": 41.5074022,
+    "lng": -81.6083276,
+    "application_count": 2
+  },
+  {
+    "school": "Saint Louis University",
+    "city,state": "St. Louis, MO",
+    "driving_time": "10 mins",
+    "within_driving_range": "TRUE",
+    "address": "1 N Grand Blvd, St. Louis, MO 63103, United States",
+    "lat": 38.6346139,
+    "lng": -90.2337376,
+    "application_count": 2
+  },
+  {
+    "school": "University of Ottawa",
+    "city,state": "Ottawa, ON",
+    "driving_time": "15 hours 31 mins",
+    "within_driving_range": "FALSE",
+    "address": "75 Laurier Ave E, Ottawa, ON K1N 6N5, Canada",
+    "lat": 45.4232523,
+    "lng": -75.6854796,
+    "application_count": 1
+  },
+  {
+    "school": "Lafayette College",
+    "city,state": "Easton, PA",
+    "driving_time": "13 hours 22 mins",
+    "within_driving_range": "TRUE",
+    "address": "730 High St, Easton, PA 18042, United States",
+    "lat": 40.7003093,
+    "lng": -75.2079364,
+    "application_count": 8
+  },
+  {
+    "school": "Irvine Valley College",
+    "city,state": "Irvine, CA",
+    "driving_time": "1 day 2 hours",
+    "within_driving_range": "FALSE",
+    "address": "5500 Irvine Center Dr, Irvine, CA 92618, United States",
+    "lat": 33.6761089,
+    "lng": -117.7749901,
+    "application_count": 1
+  },
+  {
+    "school": "University of California, Santa Barbara",
+    "city,state": "Santa Barbara, CA",
+    "driving_time": "1 day 3 hours",
+    "within_driving_range": "FALSE",
+    "address": "Santa Barbara, CA 93106, United States",
+    "lat": 34.4135868,
+    "lng": -119.8496976,
+    "application_count": 3
+  },
+  {
+    "school": "Fairleigh Dickinson University",
+    "city,state": "Teaneck, NJ",
+    "driving_time": "14 hours 31 mins",
+    "within_driving_range": "FALSE",
+    "address": "1000 River Rd, Teaneck, NJ 07666, United States",
+    "lat": 40.8961579,
+    "lng": -74.0300069,
+    "application_count": 1
+  },
+  {
+    "school": "Worcester Polytechnic Institute",
+    "city,state": "Worcester, MA",
+    "driving_time": "17 hours 7 mins",
+    "within_driving_range": "FALSE",
+    "address": "100 Institute Rd, Worcester, MA 01609, United States",
+    "lat": 42.2743398,
+    "lng": -71.8097734,
+    "application_count": 1
+  },
+  {
+    "school": "cal gravat",
+    "city,state": "Manresa, CT",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "56,, Carrer de Puig i Cadafalch, 54, 08243 Manresa, Barcelona, Spain",
+    "lat": 41.7205945,
+    "lng": 1.8447126,
+    "application_count": 0
+  },
+  {
+    "school": "University of Nebraska - Lincoln",
+    "city,state": "Lincoln, NE",
+    "driving_time": "6 hours 41 mins",
+    "within_driving_range": "TRUE",
+    "address": "1400 R St, Lincoln, NE 68588, United States",
+    "lat": 40.8175913,
+    "lng": -96.7002516,
+    "application_count": 1
+  },
+  {
+    "school": "UC Los Angeles",
+    "city,state": "Los Angeles, CA",
+    "driving_time": "1 day 2 hours",
+    "within_driving_range": "FALSE",
+    "address": "Los Angeles, CA 90095, United States",
+    "lat": 34.070264,
+    "lng": -118.4440562,
+    "application_count": 5
+  },
+  {
+    "school": "San Jose State University",
+    "city,state": "San Jose, CA",
+    "driving_time": "1 day 6 hours",
+    "within_driving_range": "FALSE",
+    "address": "1 Washington Sq, San Jose, CA 95192, United States",
+    "lat": 37.3351427,
+    "lng": -121.8812756,
+    "application_count": 1
+  },
+  {
+    "school": "Mississippi State University",
+    "city,state": "Starkville, MS",
+    "driving_time": "6 hours 52 mins",
+    "within_driving_range": "TRUE",
+    "address": "75 B. S. Hood Rd, Mississippi State University, MS 39762, United States",
+    "lat": 33.4566424,
+    "lng": -88.7945246,
+    "application_count": 1
+  },
+  {
+    "school": "University of Windsor",
+    "city,state": "Windsor, ON",
+    "driving_time": "8 hours 7 mins",
+    "within_driving_range": "TRUE",
+    "address": "401 Sunset Ave, Windsor, ON N9B 3P4, Canada",
+    "lat": 42.3063659,
+    "lng": -83.0663103,
+    "application_count": 1
+  },
+  {
+    "school": "San Francisco State University",
+    "city,state": "San Francisco, CA",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "1600 Holloway Ave, San Francisco, CA 94132, United States",
+    "lat": 37.721894,
+    "lng": -122.477995,
+    "application_count": 1
+  },
+  {
+    "school": "University of North Carolina at Charlotte",
+    "city,state": "Charlotte, NC",
+    "driving_time": "10 hours 54 mins",
+    "within_driving_range": "TRUE",
+    "address": "9201 University City Blvd, Charlotte, NC • 28223-0001, United States",
+    "lat": 35.3053942,
+    "lng": -80.7309334,
+    "application_count": 1
+  },
+  {
+    "school": "Ecole national superieure d'informatique , Algiers",
+    "city,state": "",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "BP 68M OUED SMAR, 16309, EL HARRACH, 16309, Algeria",
+    "lat": 36.70539,
+    "lng": 3.171532,
+    "application_count": 3
+  },
+  {
+    "school": "Georgia State University",
+    "city,state": "Atlanta, GA",
+    "driving_time": "8 hours 11 mins",
+    "within_driving_range": "TRUE",
+    "address": "Atlanta, GA 30302, United States",
+    "lat": 33.75,
+    "lng": -84.4,
+    "application_count": 1
+  },
+  {
+    "school": "University of New Brunswick",
+    "city,state": "Fredericton, NB",
+    "driving_time": "23 hours 40 mins",
+    "within_driving_range": "FALSE",
+    "address": "3 Bailey Dr, Fredericton, NB E3B 5A3, Canada",
+    "lat": 45.948323,
+    "lng": -66.6418415,
+    "application_count": 2
+  },
+  {
+    "school": "UC San Diego",
+    "city,state": "San Diego, CA",
+    "driving_time": "1 day 2 hours",
+    "within_driving_range": "FALSE",
+    "address": "9500 Gilman Dr, La Jolla, CA 92093, United States",
+    "lat": 32.8753618,
+    "lng": -117.2358622,
+    "application_count": 3
+  },
+  {
+    "school": "George Mason University",
+    "city,state": "Fairfax, VA",
+    "driving_time": "12 hours 37 mins",
+    "within_driving_range": "TRUE",
+    "address": "4400 University Dr, Fairfax, VA 22030, United States",
+    "lat": 38.8345098,
+    "lng": -77.3111156,
+    "application_count": 4
+  },
+  {
+    "school": "University of Iowa",
+    "city,state": "Iowa City, IA",
+    "driving_time": "4 hours 4 mins",
+    "within_driving_range": "TRUE",
+    "address": "Iowa City, IA 52242, United States",
+    "lat": 41.659363,
+    "lng": -91.5487099,
+    "application_count": 3
+  },
+  {
+    "school": "McGill University",
+    "city,state": "Montreal, QC",
+    "driving_time": "16 hours 36 mins",
+    "within_driving_range": "FALSE",
+    "address": "845 Rue Sherbrooke O, Montréal, QC H3A 0G4, Canada",
+    "lat": 45.5061666,
+    "lng": -73.5776415,
+    "application_count": 3
+  },
+  {
+    "school": "University of Wisconsin - Madison",
+    "city,state": "Madison, WI",
+    "driving_time": "5 hours 33 mins",
+    "within_driving_range": "TRUE",
+    "address": "Madison, WI 53706, United States",
+    "lat": 43.1054334,
+    "lng": -89.4269287,
+    "application_count": 1
+  },
+  {
+    "school": "Simon Fraser University",
+    "city,state": "Burnaby, BC",
+    "driving_time": "1 day 8 hours",
+    "within_driving_range": "FALSE",
+    "address": "8888 University Dr, Burnaby, BC V5A 1S6, Canada",
+    "lat": 49.280755,
+    "lng": -122.9246453,
+    "application_count": 1
+  },
+  {
+    "school": "Anna University",
+    "city,state": "Chennai, TN",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "Anna University, Kotturpuram, Chennai, Tamil Nadu, India",
+    "lat": 13.0110816,
+    "lng": 80.2363137,
+    "application_count": 1
+  },
+  {
+    "school": "Rose-Hulman Institute of Technology",
+    "city,state": "Terre Haute, IN",
+    "driving_time": "2 hours 53 mins",
+    "within_driving_range": "TRUE",
+    "address": "5500 Wabash Ave, Terre Haute, IN 47803, United States",
+    "lat": 39.4836321,
+    "lng": -87.3268569,
+    "application_count": 4
+  },
+  {
+    "school": "University of Tennessee, Knoxville",
+    "city,state": "Knoxville, TN",
+    "driving_time": "7 hours 5 mins",
+    "within_driving_range": "TRUE",
+    "address": "Knoxville, TN 37996, United States",
+    "lat": 35.9433558,
+    "lng": -83.9386991,
+    "application_count": 1
+  },
+  {
+    "school": "Technion - Israel Institute of Technology",
+    "city,state": "Umm al-Fahm, Haifa District",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "Haifa, 3200003, Israel",
+    "lat": 32.523429,
+    "lng": 35.154206,
+    "application_count": 1
+  },
+  {
+    "school": "General Douglas MacArthur High School",
+    "city,state": "Wantagh, NY",
+    "driving_time": "15 hours 12 mins",
+    "within_driving_range": "FALSE",
+    "address": "3369 Old Jerusalem Road, Levittown, NY 11756, United States",
+    "lat": 40.7041919,
+    "lng": -73.5110268,
+    "application_count": 1
+  },
+  {
+    "school": "Claremont McKenna College",
+    "city,state": "Claremont, CA",
+    "driving_time": "1 day 1 hour",
+    "within_driving_range": "FALSE",
+    "address": "888 Columbia Ave, Claremont, CA 91711, United States",
+    "lat": 34.1022071,
+    "lng": -117.7108872,
+    "application_count": 1
+  },
+  {
+    "school": "Missouri State University",
+    "city,state": "Springfield, MO",
+    "driving_time": "3 hours 16 mins",
+    "within_driving_range": "TRUE",
+    "address": "901 S National Ave, Springfield, MO 65897, United States",
+    "lat": 37.1985834,
+    "lng": -93.2786156,
+    "application_count": 4
+  },
+  {
+    "school": "Columbia Business School",
+    "city,state": "New York, NY",
+    "driving_time": "14 hours 41 mins",
+    "within_driving_range": "FALSE",
+    "address": "3022 Broadway, New York, NY 10027, United States",
+    "lat": 40.8089292,
+    "lng": -73.9613646,
+    "application_count": 1
+  },
+  {
+    "school": "University of Houston Clear Lake",
+    "city,state": "Houston, TX",
+    "driving_time": "12 hours 51 mins",
+    "within_driving_range": "TRUE",
+    "address": "2700 Bay Area Blvd, Houston, TX 77058, United States",
+    "lat": 29.58255,
+    "lng": -95.098366,
+    "application_count": 1
+  },
+  {
+    "school": "Tufts University",
+    "city,state": "Medford, MA",
+    "driving_time": "17 hours 45 mins",
+    "within_driving_range": "FALSE",
+    "address": "419 Boston Ave, Medford, MA 02155‎, United States",
+    "lat": 42.4085212,
+    "lng": -71.1183667,
+    "application_count": 1
+  },
+  {
+    "school": "Holton-Arms",
+    "city,state": "Bethesda, MD",
+    "driving_time": "12 hours 18 mins",
+    "within_driving_range": "TRUE",
+    "address": "7303 River Rd, Bethesda, MD 20817, United States",
+    "lat": 38.9916023,
+    "lng": -77.1475698,
+    "application_count": 0
+  },
+  {
+    "school": "Washington and Lee University",
+    "city,state": "Lexington, VA",
+    "driving_time": "10 hours 12 mins",
+    "within_driving_range": "TRUE",
+    "address": "204 W Washington St, Lexington, VA 24450, United States",
+    "lat": 37.7915362,
+    "lng": -79.4440952,
+    "application_count": 1
+  },
+  {
+    "school": "Syracuse University",
+    "city,state": "Syracuse, NY",
+    "driving_time": "13 hours 14 mins",
+    "within_driving_range": "TRUE",
+    "address": "Syracuse, NY, United States",
+    "lat": 43.0481221,
+    "lng": -76.1474244,
+    "application_count": 2
+  },
+  {
+    "school": "Georgia State",
+    "city,state": "Atlanta, GA",
+    "driving_time": "8 hours 15 mins",
+    "within_driving_range": "TRUE",
+    "address": "Atlanta, GA 30302, United States",
+    "lat": 33.75,
+    "lng": -84.4,
+    "application_count": 1
+  },
+  {
+    "school": "University of Illinois, Chicago",
+    "city,state": "Chicago, IL",
+    "driving_time": "4 hours 30 mins",
+    "within_driving_range": "TRUE",
+    "address": "UIC, 700 S Halsted St, Chicago, IL 60607, USA",
+    "lat": 41.8733696,
+    "lng": -87.650714,
+    "application_count": 2
+  },
+  {
+    "school": "Mercer University",
+    "city,state": "Macon, GA",
+    "driving_time": "9 hours 23 mins",
+    "within_driving_range": "TRUE",
+    "address": "1501 Mercer University Dr, Macon, GA 31207, United States",
+    "lat": 32.8260317,
+    "lng": -83.6542377,
+    "application_count": 1
+  },
+  {
+    "school": "Boston University",
+    "city,state": "Boston, MA",
+    "driving_time": "17 hours 37 mins",
+    "within_driving_range": "FALSE",
+    "address": "Boston, MA 02215, United States",
+    "lat": 42.3476181,
+    "lng": -71.1002881,
+    "application_count": 1
+  },
+  {
+    "school": "University of Mary Washington",
+    "city,state": "Fredericksburg, VA",
+    "driving_time": "12 hours 27 mins",
+    "within_driving_range": "TRUE",
+    "address": "1301 College Ave, Fredericksburg, VA 22401, United States",
+    "lat": 38.2996744,
+    "lng": -77.4714322,
+    "application_count": 2
+  },
+  {
+    "school": "Okan University",
+    "city,state": "Turkey, İstanbul",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "Okan Üniversitesi Tuzla Kampüsü, 34959 Akfırat - Tuzla/İstanbul, Turkey",
+    "lat": 40.8982305,
+    "lng": 29.3598782,
+    "application_count": 1
+  },
+  {
+    "school": "University of Maryland Baltimore County",
+    "city,state": "Baltimore, MD",
+    "driving_time": "12 hours 25 mins",
+    "within_driving_range": "TRUE",
+    "address": "1000 Hilltop Cir, Baltimore, MD 21250, United States",
+    "lat": 39.2538015,
+    "lng": -76.7142732,
+    "application_count": 1
+  },
+  {
+    "school": "St. John's University",
+    "city,state": "United States, NY",
+    "driving_time": "14 hours 56 mins",
+    "within_driving_range": "FALSE",
+    "address": "8000 Utopia Pkwy, Jamaica, NY 11439, United States",
+    "lat": 40.7239535,
+    "lng": -73.792579,
+    "application_count": 1
+  },
+  {
+    "school": "Marquette University",
+    "city,state": "Milwaukee, WI",
+    "driving_time": "5 hours 32 mins",
+    "within_driving_range": "TRUE",
+    "address": "1250 W Wisconsin Ave, Milwaukee, WI 53233, United States",
+    "lat": 43.0389806,
+    "lng": -87.9279852,
+    "application_count": 1
+  },
+  {
+    "school": "Marcellus High School",
+    "city,state": "Marcellus, NY",
+    "driving_time": "13 hours 15 mins",
+    "within_driving_range": "TRUE",
+    "address": "1 Mustang Hill, Marcellus, NY 13108, United States",
+    "lat": 42.9924983,
+    "lng": -76.3431278,
+    "application_count": 1
+  },
+  {
+    "school": "Hunter College",
+    "city,state": "New York, NY",
+    "driving_time": "14 hours 46 mins",
+    "within_driving_range": "FALSE",
+    "address": "695 Park Ave, New York, NY 10065, United States",
+    "lat": 40.7686084,
+    "lng": -73.9650501,
+    "application_count": 2
+  },
+  {
+    "school": "University School of Information Technology",
+    "city,state": "New Delhi, DL",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "Sector 16 C, Kakrola, New Delhi, Delhi 110078, India",
+    "lat": 28.5867707,
+    "lng": 77.0269422,
+    "application_count": 1
+  },
+  {
+    "school": "Illinois Institute Of Technology",
+    "city,state": "Chicago, IL",
+    "driving_time": "4 hours 26 mins",
+    "within_driving_range": "TRUE",
+    "address": "3300 S Federal St, Chicago, IL 60616, United States",
+    "lat": 41.8343395,
+    "lng": -87.6237866,
+    "application_count": 1
+  },
+  {
+    "school": "San Marino High School",
+    "city,state": "San Marino, CA",
+    "driving_time": "1 day 2 hours",
+    "within_driving_range": "FALSE",
+    "address": "2701 Huntington Dr, San Marino, CA 91108, United States",
+    "lat": 34.1253279,
+    "lng": -118.0988743,
+    "application_count": 1
+  },
+  {
+    "school": "Middlebury College",
+    "city,state": "Middlebury, VT",
+    "driving_time": "16 hours 59 mins",
+    "within_driving_range": "FALSE",
+    "address": "14 Old Chapel Rd, Middlebury, VT 05753, United States",
+    "lat": 44.00835,
+    "lng": -73.176872,
+    "application_count": 2
+  },
+  {
+    "school": "University of Illinois Chicago College of Medicine",
+    "city,state": "Chicago, IL",
+    "driving_time": "4 hours 32 mins",
+    "within_driving_range": "TRUE",
+    "address": "808 S Wood St, Chicago, IL 60612, United States",
+    "lat": 41.8711839,
+    "lng": -87.6716754,
+    "application_count": 1
+  },
+  {
+    "school": "College of Southern Maryland",
+    "city,state": "La Plata, MD",
+    "driving_time": "13 hours 13 mins",
+    "within_driving_range": "TRUE",
+    "address": "8730 Mitchell Rd, La Plata, MD 20646, United States",
+    "lat": 38.558853,
+    "lng": -77.006125,
+    "application_count": 1
+  },
+  {
+    "school": "University of Notre Dame",
+    "city,state": "Notre Dame, IN",
+    "driving_time": "5 hours 35 mins",
+    "within_driving_range": "TRUE",
+    "address": "Notre Dame, IN 46556, United States",
+    "lat": 41.7001908,
+    "lng": -86.2379328,
+    "application_count": 2
+  },
+  {
+    "school": "QA Apprenticeships",
+    "city,state": "London, England",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "44 Tabernacle St, London EC2A 4DT, United Kingdom",
+    "lat": 51.5234423,
+    "lng": -0.0859334,
+    "application_count": 1
+  },
+  {
+    "school": "Columbia University",
+    "city,state": "United States, SD",
+    "driving_time": "11 hours 44 mins",
+    "within_driving_range": "TRUE",
+    "address": "116th St & Broadway, New York, NY 10027, United States",
+    "lat": 45.7048307,
+    "lng": -98.2529921,
+    "application_count": 3
+  },
+  {
+    "school": "University of Washington",
+    "city,state": "Seattle, WA",
+    "driving_time": "1 day 6 hours",
+    "within_driving_range": "FALSE",
+    "address": "Seattle, WA, United States",
+    "lat": 47.6062095,
+    "lng": -122.3320708,
+    "application_count": 3
+  },
+  {
+    "school": "Baruch College",
+    "city,state": "New York, NY",
+    "driving_time": "14 hours 41 mins",
+    "within_driving_range": "FALSE",
+    "address": "55 Lexington Ave, New York, NY 10010, United States",
+    "lat": 40.7401991,
+    "lng": -73.9833745,
+    "application_count": 1
+  },
+  {
+    "school": "Beloit College",
+    "city,state": "Beloit, WI",
+    "driving_time": "4 hours 39 mins",
+    "within_driving_range": "TRUE",
+    "address": "700 College St, Beloit, WI 53511, United States",
+    "lat": 42.5030333,
+    "lng": -89.0309048,
+    "application_count": 1
+  },
+  {
+    "school": "National University of Sciences & Technology, H12 Islamabad, Pakistan",
+    "city,state": "Islamabad, Islamabad Capital Territory",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "H-12, Islamabad, Pakistan",
+    "lat": 33.6455715,
+    "lng": 72.9903447,
+    "application_count": 1
+  },
+  {
+    "school": "Lehigh University",
+    "city,state": "Bethlehem, PA",
+    "driving_time": "13 hours 17 mins",
+    "within_driving_range": "TRUE",
+    "address": "27 Memorial Dr W, Bethlehem, PA 18015, United States",
+    "lat": 40.6067766,
+    "lng": -75.3801646,
+    "application_count": 1
+  },
+  {
+    "school": "Duke University",
+    "city,state": "Durham, NC",
+    "driving_time": "11 hours 54 mins",
+    "within_driving_range": "TRUE",
+    "address": "Durham, NC 27708, United States",
+    "lat": 35.9992263,
+    "lng": -78.9472089,
+    "application_count": 5
+  },
+  {
+    "school": "Oakland University",
+    "city,state": "Rochester, MI",
+    "driving_time": "8 hours 23 mins",
+    "within_driving_range": "TRUE",
+    "address": "2200 N Squirrel Rd, Rochester, MI 48309, United States",
+    "lat": 42.6743732,
+    "lng": -83.2167661,
+    "application_count": 1
+  },
+  {
+    "school": "Messiah College",
+    "city,state": "Mechanicsburg, PA",
+    "driving_time": "11 hours 48 mins",
+    "within_driving_range": "TRUE",
+    "address": "1 College Ave, Mechanicsburg, PA 17055, United States",
+    "lat": 40.1579568,
+    "lng": -76.9881939,
+    "application_count": 5
+  },
+  {
+    "school": "Ecole Centrale Paris",
+    "city,state": "Châtenay-Malabry, Île-de-France",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "Grande Voie des Vignes, 92290 Châtenay-Malabry, France",
+    "lat": 48.765952,
+    "lng": 2.2856325,
+    "application_count": 1
+  },
+  {
+    "school": "Columbia University in the City of New York",
+    "city,state": "United States, SD",
+    "driving_time": "11 hours 44 mins",
+    "within_driving_range": "TRUE",
+    "address": "116th St & Broadway, New York, NY 10027, United States",
+    "lat": 45.7048307,
+    "lng": -98.2529921,
+    "application_count": 1
+  },
+  {
+    "school": "Bellevue College",
+    "city,state": "Bellevue, WA",
+    "driving_time": "1 day 6 hours",
+    "within_driving_range": "FALSE",
+    "address": "3000 Landerholm Cir SE, Bellevue, WA 98007, United States",
+    "lat": 47.5851939,
+    "lng": -122.1479574,
+    "application_count": 1
+  },
+  {
+    "school": "University of Alabama in Huntsville",
+    "city,state": "Huntsville, AL",
+    "driving_time": "6 hours 17 mins",
+    "within_driving_range": "TRUE",
+    "address": "301 Sparkman Dr NW, Huntsville, AL 35899, United States",
+    "lat": 34.725868,
+    "lng": -86.6411956,
+    "application_count": 2
+  },
+  {
+    "school": "Grinnell College",
+    "city,state": "Grinnell, IA",
+    "driving_time": "4 hours 53 mins",
+    "within_driving_range": "TRUE",
+    "address": "1115 8th Ave, Grinnell, IA 50112, United States",
+    "lat": 41.7495125,
+    "lng": -92.7200778,
+    "application_count": 2
+  },
+  {
+    "school": "Wartburg College",
+    "city,state": "Waverly, IA",
+    "driving_time": "5 hours 28 mins",
+    "within_driving_range": "TRUE",
+    "address": "100 Wartburg Blvd, Waverly, IA 50677, United States",
+    "lat": 42.728543,
+    "lng": -92.4843732,
+    "application_count": 1
+  },
+  {
+    "school": "Emory University",
+    "city,state": "Atlanta, GA",
+    "driving_time": "8 hours 23 mins",
+    "within_driving_range": "TRUE",
+    "address": "201 Dowman Dr, Atlanta, GA 30322, United States",
+    "lat": 33.7894903,
+    "lng": -84.3267716,
+    "application_count": 1
+  },
+  {
+    "school": "Chadwick School",
+    "city,state": "Palos Verdes Peninsula, CA",
+    "driving_time": "1 day 2 hours",
+    "within_driving_range": "FALSE",
+    "address": "26800 S Academy Dr, Palos Verdes Peninsula, CA 90274, United States",
+    "lat": 33.7798413,
+    "lng": -118.3585618,
+    "application_count": 1
+  },
+  {
+    "school": "Ryerson University",
+    "city,state": "Toronto, ON",
+    "driving_time": "11 hours 42 mins",
+    "within_driving_range": "TRUE",
+    "address": "350 Victoria St, Toronto, ON M5B 2K3, Canada",
+    "lat": 43.6583238,
+    "lng": -79.3807794,
+    "application_count": 3
+  },
+  {
+    "school": "Fordham University",
+    "city,state": "United States, NY",
+    "driving_time": "14 hours 46 mins",
+    "within_driving_range": "FALSE",
+    "address": "Bronx, NY 10458, United States",
+    "lat": 40.8621792,
+    "lng": -73.88601,
+    "application_count": 1
+  },
+  {
+    "school": "Bloomsburg University of Pennsylvania",
+    "city,state": "Bloomsburg, PA",
+    "driving_time": "12 hours 25 mins",
+    "within_driving_range": "TRUE",
+    "address": "400 East 2nd Street, Bloomsburg, PA 17815, United States",
+    "lat": 41.0081119,
+    "lng": -76.4472749,
+    "application_count": 1
+  },
+  {
+    "school": "University of Utah",
+    "city,state": "Salt Lake City, UT",
+    "driving_time": "19 hours 7 mins",
+    "within_driving_range": "FALSE",
+    "address": "201 Presidents Cir, Salt Lake City, UT 84112, United States",
+    "lat": 40.765023,
+    "lng": -111.848931,
+    "application_count": 2
+  },
+  {
+    "school": "Saint Joseph",
+    "city,state": "Saint Joseph, MO",
+    "driving_time": "4 hours 28 mins",
+    "within_driving_range": "TRUE",
+    "address": "St Joseph, MO, USA",
+    "lat": 39.7674578,
+    "lng": -94.846681,
+    "application_count": 1
+  },
+  {
+    "school": "University at Buffalo",
+    "city,state": "Buffalo, NY",
+    "driving_time": "11 hours 10 mins",
+    "within_driving_range": "TRUE",
+    "address": "Buffalo, NY, United States",
+    "lat": 42.8864468,
+    "lng": -78.8783689,
+    "application_count": 2
+  },
+  {
+    "school": "Northeastern University",
+    "city,state": "Boston, MA",
+    "driving_time": "17 hours 41 mins",
+    "within_driving_range": "FALSE",
+    "address": "360 Huntington Ave, Boston, MA 02115, United States",
+    "lat": 42.339348,
+    "lng": -71.0881734,
+    "application_count": 6
+  },
+  {
+    "school": "Wilfrid Laurier University",
+    "city,state": "Waterloo, ON",
+    "driving_time": "10 hours 56 mins",
+    "within_driving_range": "TRUE",
+    "address": "75 University Ave W, Waterloo, ON N2L 3C5, Canada",
+    "lat": 43.4743307,
+    "lng": -80.5280234,
+    "application_count": 1
+  },
+  {
+    "school": "Queen's University",
+    "city,state": "Kingston, ON",
+    "driving_time": "13 hours 55 mins",
+    "within_driving_range": "TRUE",
+    "address": "99 University Ave, Kingston, ON K7L 3N6, Canada",
+    "lat": 44.2283572,
+    "lng": -76.4947865,
+    "application_count": 1
+  },
+  {
+    "school": "Make School",
+    "city,state": "San Francisco, CA",
+    "driving_time": "1 day 5 hours",
+    "within_driving_range": "FALSE",
+    "address": "1547 Mission St, San Francisco, CA 94103, United States",
+    "lat": 37.7734952,
+    "lng": -122.4177953,
+    "application_count": 1
+  },
+  {
+    "school": "The Harker School",
+    "city,state": "San Jose, CA",
+    "driving_time": "1 day 6 hours",
+    "within_driving_range": "FALSE",
+    "address": "500 Saratoga Ave, San Jose, CA 95128, United States",
+    "lat": 37.316963,
+    "lng": -121.972,
+    "application_count": 1
+  },
+  {
+    "school": "Lewis University",
+    "city,state": "Romeoville, IL",
+    "driving_time": "4 hours 7 mins",
+    "within_driving_range": "TRUE",
+    "address": "1 University Pkwy, Romeoville, IL 60446, United States",
+    "lat": 41.6047245,
+    "lng": -88.0813334,
+    "application_count": 1
+  },
+  {
+    "school": "Collin College",
+    "city,state": "McKinney, TX",
+    "driving_time": "9 hours 8 mins",
+    "within_driving_range": "TRUE",
+    "address": "2200 W University Dr, McKinney, TX 75071, United States",
+    "lat": 33.2183902,
+    "lng": -96.6416424,
+    "application_count": 1
+  },
+  {
+    "school": "Drury University",
+    "city,state": "Springfield, MO",
+    "driving_time": "3 hours 16 mins",
+    "within_driving_range": "TRUE",
+    "address": "900 N Benton Ave, Springfield, MO 65802, United States",
+    "lat": 37.2196532,
+    "lng": -93.2861655,
+    "application_count": 1
+  },
+  {
+    "school": "Rice University",
+    "city,state": "Houston, TX",
+    "driving_time": "12 hours 21 mins",
+    "within_driving_range": "TRUE",
+    "address": "6100 Main St, Houston, TX 77005, United States",
+    "lat": 29.7184075,
+    "lng": -95.3980766,
+    "application_count": 1
+  },
+  {
+    "school": "The Cooper Union for the Advancement of Science and Art",
+    "city,state": "New York, NY",
+    "driving_time": "14 hours 33 mins",
+    "within_driving_range": "FALSE",
+    "address": "30 Cooper Sq, New York, NY 10003, United States",
+    "lat": 40.7281505,
+    "lng": -73.9916835,
+    "application_count": 1
+  },
+  {
+    "school": "University of Petroleum and Energy Studies",
+    "city,state": "India, UK",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "Bidholi, Via Prem Nagar, Dehradun, Uttarakhand 248007, India",
+    "lat": 30.3809588,
+    "lng": 77.9756979,
+    "application_count": 1
+  },
+  {
+    "school": "The College of William & Mary",
+    "city,state": "Williamsburg, VA",
+    "driving_time": "12 hours 49 mins",
+    "within_driving_range": "TRUE",
+    "address": "104 Jamestown Rd, Williamsburg, VA 23185, United States",
+    "lat": 37.2700765,
+    "lng": -76.7084496,
+    "application_count": 1
+  },
+  {
+    "school": "GTBIT",
+    "city,state": "New Delhi, DL",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "G-8 Area, Rajouri Garden, New Delhi, Delhi 110064, India",
+    "lat": 28.6209914,
+    "lng": 77.1120168,
+    "application_count": 1
+  },
+  {
+    "school": "Southeast Missouri State University",
+    "city,state": "Cape Girardeau, MO",
+    "driving_time": "1 hour 58 mins",
+    "within_driving_range": "TRUE",
+    "address": "1 University Plaza, Cape Girardeau, MO 63701, United States",
+    "lat": 37.3126443,
+    "lng": -89.5310043,
+    "application_count": 2
+  },
+  {
+    "school": "DELHI TECHNOLOGICAL UNIVERSITY",
+    "city,state": "New Delhi, DL",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "Shahbad Daulatpur, Main Bawana Road, New Delhi, Delhi 110042, India",
+    "lat": 28.8215276,
+    "lng": 77.066219,
+    "application_count": 1
+  },
+  {
+    "school": "Parkland College",
+    "city,state": "Champaign, IL",
+    "driving_time": "2 hours 47 mins",
+    "within_driving_range": "TRUE",
+    "address": "2400 W Bradley Ave, Champaign, IL 61821, United States",
+    "lat": 40.1319766,
+    "lng": -88.290315,
+    "application_count": 1
+  },
+  {
+    "school": "Delhi College of Engineering",
+    "city,state": "New Delhi, DL",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "Shahbad Daulatpur, Main Bawana Road, New Delhi, Delhi 110042, India",
+    "lat": 28.8215276,
+    "lng": 77.066219,
+    "application_count": 1
+  },
+  {
+    "school": "BASIS Prescott",
+    "city,state": "Prescott, AZ",
+    "driving_time": "20 hours 44 mins",
+    "within_driving_range": "FALSE",
+    "address": "1901 Prescott Lakes Pkwy, Prescott, AZ 86301, United States",
+    "lat": 34.589784,
+    "lng": -112.431585,
+    "application_count": 1
+  },
+  {
+    "school": "Boston College",
+    "city,state": "Newton, MA",
+    "driving_time": "17 hours 36 mins",
+    "within_driving_range": "FALSE",
+    "address": "Chestnut Hill, MA 02467, United States",
+    "lat": 42.3303798,
+    "lng": -71.166187,
+    "application_count": 1
+  },
+  {
+    "school": "University of California, Irvine",
+    "city,state": "Irvine, CA",
+    "driving_time": "1 day 2 hours",
+    "within_driving_range": "FALSE",
+    "address": "Irvine, CA 92697, United States",
+    "lat": 33.6471239,
+    "lng": -117.8421325,
+    "application_count": 1
+  },
+  {
+    "school": "University of Alberta",
+    "city,state": "United States, SD",
+    "driving_time": "11 hours 42 mins",
+    "within_driving_range": "TRUE",
+    "address": "116 St & 85 Ave, Edmonton, AB T6G 2R3, Canada",
+    "lat": 45.7048307,
+    "lng": -98.2529921,
+    "application_count": 1
+  },
+  {
+    "school": "Rochester Institute of Technology",
+    "city,state": "Rochester, NY",
+    "driving_time": "12 hours 8 mins",
+    "within_driving_range": "TRUE",
+    "address": "1 Lomb Memorial Dr, Rochester, NY 14623, United States",
+    "lat": 43.0839818,
+    "lng": -77.6745421,
+    "application_count": 1
+  },
+  {
+    "school": "Santa Clara University",
+    "city,state": "Santa Clara, CA",
+    "driving_time": "1 day 6 hours",
+    "within_driving_range": "FALSE",
+    "address": "500 El Camino Real, Santa Clara, CA 95053, United States",
+    "lat": 37.3499521,
+    "lng": -121.940608,
+    "application_count": 1
+  },
+  {
+    "school": "Northeastern Illinois University",
+    "city,state": "Chicago, IL",
+    "driving_time": "4 hours 44 mins",
+    "within_driving_range": "TRUE",
+    "address": "5500 St Louis Ave, Chicago, IL 60625, United States",
+    "lat": 41.9802119,
+    "lng": -87.7187973,
+    "application_count": 1
+  },
+  {
+    "school": "Siena College",
+    "city,state": "Albany, NY",
+    "driving_time": "15 hours 12 mins",
+    "within_driving_range": "FALSE",
+    "address": "515 Loudon Rd, Albany, NY 12211, United States",
+    "lat": 42.718452,
+    "lng": -73.7521951,
+    "application_count": 1
+  },
+  {
+    "school": "Texas Tech University",
+    "city,state": "Lubbock, TX",
+    "driving_time": "12 hours 14 mins",
+    "within_driving_range": "TRUE",
+    "address": "2500 Broadway, Lubbock, TX 79409, United States",
+    "lat": 33.5854275,
+    "lng": -101.8771301,
+    "application_count": 1
+  },
+  {
+    "school": "North Carolina State University",
+    "city,state": "Raleigh, NC",
+    "driving_time": "12 hours 13 mins",
+    "within_driving_range": "TRUE",
+    "address": "Raleigh, NC 27695, United States",
+    "lat": 35.7850545,
+    "lng": -78.6819449,
+    "application_count": 1
+  },
+  {
+    "school": "Pomona College",
+    "city,state": "Claremont, CA",
+    "driving_time": "1 day 1 hour",
+    "within_driving_range": "FALSE",
+    "address": "Sumner Hall, 333 N College Way, Claremont, CA 91711, United States",
+    "lat": 34.0971165,
+    "lng": -117.7131933,
+    "application_count": 1
+  },
+  {
+    "school": "The University of Alabama",
+    "city,state": "Tuscaloosa, AL",
+    "driving_time": "7 hours 56 mins",
+    "within_driving_range": "TRUE",
+    "address": "Tuscaloosa, AL 35487, United States",
+    "lat": 33.207199,
+    "lng": -87.5482025,
+    "application_count": 1
+  },
+  {
+    "school": "Indian Institute of Engineering Science and Technology, Shibpur",
+    "city,state": "Howrah, WB",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "P.O.Botanic Garden, Shalimar, Howrah, West Bengal 711103, India",
+    "lat": 22.5586871,
+    "lng": 88.2911207,
+    "application_count": 1
+  },
+  {
+    "school": "Stetson University",
+    "city,state": "DeLand, FL",
+    "driving_time": "14 hours 14 mins",
+    "within_driving_range": "FALSE",
+    "address": "421 N Woodland Blvd, DeLand, FL 32723, United States",
+    "lat": 29.0366133,
+    "lng": -81.3032905,
+    "application_count": 1
+  },
+  {
+    "school": "University of South Florida",
+    "city,state": "Tampa, FL",
+    "driving_time": "14 hours 21 mins",
+    "within_driving_range": "FALSE",
+    "address": "4202 E Fowler Ave, Tampa, FL 33620, United States",
+    "lat": 28.0672631,
+    "lng": -82.412069,
+    "application_count": 1
+  },
+  {
+    "school": "University of Texas, El Paso",
+    "city,state": "El Paso, TX",
+    "driving_time": "17 hours 20 mins",
+    "within_driving_range": "FALSE",
+    "address": "799689, 500 W University Ave, El Paso, TX 79902, United States",
+    "lat": 31.7708544,
+    "lng": -106.5046216,
+    "application_count": 1
+  },
+  {
+    "school": "University of Central Florida",
+    "city,state": "Orlando, FL",
+    "driving_time": "14 hours 27 mins",
+    "within_driving_range": "FALSE",
+    "address": "4000 Central Florida Blvd, Orlando, FL 32816, United States",
+    "lat": 28.6068897,
+    "lng": -81.1972747,
+    "application_count": 1
+  },
+  {
+    "school": "Bryn Mawr College",
+    "city,state": "Bryn Mawr, PA",
+    "driving_time": "13 hours 12 mins",
+    "within_driving_range": "TRUE",
+    "address": "101 N Merion Ave, Bryn Mawr, PA 19010, United States",
+    "lat": 40.0263,
+    "lng": -75.312867,
+    "application_count": 1
+  },
+  {
+    "school": "University of Western Ontario",
+    "city,state": "London, ON",
+    "driving_time": "10 hours 1 min",
+    "within_driving_range": "TRUE",
+    "address": "1151 Richmond St, London, ON N6A 3K7, Canada",
+    "lat": 43.0097701,
+    "lng": -81.2726335,
+    "application_count": 1
+  },
+  {
+    "school": "University of Illinois, Rockford",
+    "city,state": "Rockford, IL",
+    "driving_time": "4 hours 29 mins",
+    "within_driving_range": "TRUE",
+    "address": "1601 Parkview Ave, Rockford, IL 61101, United States",
+    "lat": 42.2839863,
+    "lng": -89.0549795,
+    "application_count": 1
+  },
+  {
+    "school": "Florida State University",
+    "city,state": "Tallahassee, FL",
+    "driving_time": "12 hours 7 mins",
+    "within_driving_range": "TRUE",
+    "address": "600 W College Ave, Tallahassee, FL 32306, United States",
+    "lat": 30.4409616,
+    "lng": -84.2906658,
+    "application_count": 1
+  },
+  {
+    "school": "Florida International University",
+    "city,state": "Miami, FL",
+    "driving_time": "17 hours 20 mins",
+    "within_driving_range": "FALSE",
+    "address": "11200 SW 8th St, Miami, FL 33199, United States",
+    "lat": 25.7569899,
+    "lng": -80.3796273,
+    "application_count": 1
+  },
+  {
+    "school": "University of Illinois at Chicago College of Medicine",
+    "city,state": "Chicago, IL",
+    "driving_time": "4 hours 31 mins",
+    "within_driving_range": "TRUE",
+    "address": "808 S Wood St, Chicago, IL 60612, United States",
+    "lat": 41.8711839,
+    "lng": -87.6716754,
+    "application_count": 1
+  },
+  {
+    "school": "University of Illinois at Springfield",
+    "city,state": "Springfield, IL",
+    "driving_time": "1 hour 35 mins",
+    "within_driving_range": "TRUE",
+    "address": "One William Maxwell Ln, Springfield, IL 62703, United States",
+    "lat": 39.7280671,
+    "lng": -89.6152742,
+    "application_count": 1
+  },
+  {
+    "school": "Universitat Politecnica de Catalunya",
+    "city,state": "Barcelona, CT",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "Campus Nord, Calle Jordi Girona, 1-3, 08034 Barcelona, Spain",
+    "lat": 41.387484,
+    "lng": 2.112729,
+    "application_count": 1
+  },
+  {
+    "school": "Middle Tennessee State University",
+    "city,state": "Murfreesboro, TN",
+    "driving_time": "5 hours 12 mins",
+    "within_driving_range": "TRUE",
+    "address": "1301 E Main St, Murfreesboro, TN 37132, United States",
+    "lat": 35.8480587,
+    "lng": -86.3663341,
+    "application_count": 2
+  },
+  {
+    "school": "Pennsylvania State University",
+    "city,state": "State College, PA",
+    "driving_time": "11 hours 24 mins",
+    "within_driving_range": "TRUE",
+    "address": "Old Main, State College, PA 16801, United States",
+    "lat": 40.7953556,
+    "lng": -77.8613826,
+    "application_count": 4
+  },
+  {
+    "school": "Holton-Arms School",
+    "city,state": "Bethesda, MD",
+    "driving_time": "12 hours 16 mins",
+    "within_driving_range": "TRUE",
+    "address": "7303 River Rd, Bethesda, MD 20817, United States",
+    "lat": 38.9916023,
+    "lng": -77.1475698,
+    "application_count": 1
+  },
+  {
+    "school": "UC Riverside",
+    "city,state": "Riverside, CA",
+    "driving_time": "1 day 1 hour",
+    "within_driving_range": "FALSE",
+    "address": "900 University Ave, Riverside, CA 92521, United States",
+    "lat": 33.978881,
+    "lng": -117.3281427,
+    "application_count": 1
+  },
+  {
+    "school": "St. Charles Community College",
+    "city,state": "Cottleville, MO",
+    "driving_time": "35 mins",
+    "within_driving_range": "TRUE",
+    "address": "4601 Mid Rivers Mall Dr, Cottleville, MO 63376, United States",
+    "lat": 38.7590918,
+    "lng": -90.6398705,
+    "application_count": 1
+  },
+  {
+    "school": "Florida international university",
+    "city,state": "Miami, FL",
+    "driving_time": "17 hours 20 mins",
+    "within_driving_range": "FALSE",
+    "address": "11200 SW 8th St, Miami, FL 33199, United States",
+    "lat": 25.7569899,
+    "lng": -80.3796273,
+    "application_count": 1
+  },
+  {
+    "school": "Higher Institute of Computer and Mathematics Monastir",
+    "city,state": "",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "Avenue de la Corniche, BP 223,, Monastir 5000, Tunisia",
+    "lat": "",
+    "lng": "",
+    "application_count": 1
+  },
+  {
+    "school": "University of Wisconsin Madison",
+    "city,state": "Madison, WI",
+    "driving_time": "5 hours 35 mins",
+    "within_driving_range": "TRUE",
+    "address": "Madison, WI 53706, United States",
+    "lat": 43.1054334,
+    "lng": -89.4269287,
+    "application_count": 1
+  },
+  {
+    "school": "Rochester Institute Of technology",
+    "city,state": "Rochester, NY",
+    "driving_time": "12 hours 8 mins",
+    "within_driving_range": "TRUE",
+    "address": "1 Lomb Memorial Dr, Rochester, NY 14623, United States",
+    "lat": 43.0839818,
+    "lng": -77.6745421,
+    "application_count": 1
+  },
+  {
+    "school": "University of Guelph",
+    "city,state": "Guelph, ON",
+    "driving_time": "11 hours 5 mins",
+    "within_driving_range": "TRUE",
+    "address": "50 Stone Rd E, Guelph, ON N1G 2W1, Canada",
+    "lat": 43.5305188,
+    "lng": -80.2262523,
+    "application_count": 1
+  },
+  {
+    "school": "Wilcox High School",
+    "city,state": "Santa Clara, CA",
+    "driving_time": "1 day 6 hours",
+    "within_driving_range": "FALSE",
+    "address": "3250 Monroe St, Santa Clara, CA 95051, United States",
+    "lat": 37.3661381,
+    "lng": -121.9863612,
+    "application_count": 1
+  },
+  {
+    "school": "University of Technology, Jamaica",
+    "city,state": "Kingston, St. Andrew Parish",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "237 Old Hope Road, Kingston, Jamaica",
+    "lat": 18.0175324,
+    "lng": -76.75448,
+    "application_count": 1
+  },
+  {
+    "school": "University of Georgia",
+    "city,state": "Athens, GA",
+    "driving_time": "9 hours 10 mins",
+    "within_driving_range": "TRUE",
+    "address": "Athens, GA 30602, United States",
+    "lat": 33.954258,
+    "lng": -83.3749322,
+    "application_count": 2
+  },
+  {
+    "school": "Northern Illinois University",
+    "city,state": "DeKalb, IL",
+    "driving_time": "4 hours 13 mins",
+    "within_driving_range": "TRUE",
+    "address": "1425 W Lincoln Hwy, DeKalb, IL 60115, United States",
+    "lat": 41.9339755,
+    "lng": -88.7798537,
+    "application_count": 1
+  },
+  {
+    "school": "Texas Christian University",
+    "city,state": "Fort Worth, TX",
+    "driving_time": "10 hours 4 mins",
+    "within_driving_range": "TRUE",
+    "address": "2800 S University Dr, Fort Worth, TX 76129, United States",
+    "lat": 32.7092309,
+    "lng": -97.3592719,
+    "application_count": 1
+  },
+  {
+    "school": "University of Virginia",
+    "city,state": "Charlottesville, VA",
+    "driving_time": "11 hours 7 mins",
+    "within_driving_range": "TRUE",
+    "address": "Charlottesville, VA, United States",
+    "lat": 38.0293059,
+    "lng": -78.4766781,
+    "application_count": 1
+  },
+  {
+    "school": "University Institute of Engineering & Technology, Kanpur University",
+    "city,state": "Kanpur, UP",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "CSJM University, Kanpur, Uttar Pradesh 208024, India",
+    "lat": 26.506621,
+    "lng": 80.2692139,
+    "application_count": 1
+  },
+  {
+    "school": "Monmouth College",
+    "city,state": "Monmouth, IL",
+    "driving_time": "3 hours 35 mins",
+    "within_driving_range": "TRUE",
+    "address": "700 E Broadway, Monmouth, IL 61462, United States",
+    "lat": 40.9127572,
+    "lng": -90.6385373,
+    "application_count": 1
+  },
+  {
+    "school": "Netaji Subhas Institute of Technology",
+    "city,state": "New Delhi, DL",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "Azad Hind Fauz Marg, Sector 3,Dwarka, New Delhi, Delhi 110078, India",
+    "lat": 28.6056197,
+    "lng": 77.0365751,
+    "application_count": 2
+  },
+  {
+    "school": "University of Cincinnati",
+    "city,state": "Cincinnati, OH",
+    "driving_time": "5 hours 26 mins",
+    "within_driving_range": "TRUE",
+    "address": "2600 Clifton Ave, Cincinnati, OH 45220, United States",
+    "lat": 39.13108,
+    "lng": -84.5177841,
+    "application_count": 3
+  },
+  {
+    "school": "DePaul University",
+    "city,state": "Chicago, IL",
+    "driving_time": "4 hours 40 mins",
+    "within_driving_range": "TRUE",
+    "address": "2320 N Kenmore Ave, Chicago, IL 60614, United States",
+    "lat": 41.9240794,
+    "lng": -87.6551304,
+    "application_count": 1
+  },
+  {
+    "school": "Minerva Schools",
+    "city,state": "San Francisco, CA",
+    "driving_time": "1 day 6 hours",
+    "within_driving_range": "FALSE",
+    "address": "1145 Market St, San Francisco, CA 94103, United States",
+    "lat": 37.7793736,
+    "lng": -122.4131805,
+    "application_count": 1
+  },
+  {
+    "school": "Clemson University",
+    "city,state": "Clemson, SC",
+    "driving_time": "9 hours 49 mins",
+    "within_driving_range": "TRUE",
+    "address": "Clemson, SC 29634, United States",
+    "lat": 34.680476,
+    "lng": -82.8391552,
+    "application_count": 1
+  },
+  {
+    "school": "Institut Cal Gravat",
+    "city,state": "Manresa, CT",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "56,, Carrer de Puig i Cadafalch, 54, 08243 Manresa, Barcelona, Spain",
+    "lat": 41.7205945,
+    "lng": 1.8447126,
+    "application_count": 1
+  },
+  {
+    "school": "Bergen County Aaademies",
+    "city,state": "Hackensack, NJ",
+    "driving_time": "14 hours 29 mins",
+    "within_driving_range": "FALSE",
+    "address": "200 Hackensack Ave, Hackensack, NJ 07601, United States",
+    "lat": 40.9017414,
+    "lng": -74.0335932,
+    "application_count": 1
+  },
+  {
+    "school": "University of Central Florida",
+    "city,state": "Orlando, FL",
+    "driving_time": "14 hours 27 mins",
+    "within_driving_range": "FALSE",
+    "address": "4000 Central Florida Blvd, Orlando, FL 32816, United States",
+    "lat": 28.6068897,
+    "lng": -81.1972747,
+    "application_count": 1
+  },
+  {
+    "school": "Cooper Union",
+    "city,state": "New York, NY",
+    "driving_time": "14 hours 33 mins",
+    "within_driving_range": "FALSE",
+    "address": "30 Cooper Sq, New York, NY 10003, United States",
+    "lat": 40.7281505,
+    "lng": -73.9916835,
+    "application_count": 1
+  },
+  {
+    "school": "American River College",
+    "city,state": "Sacramento, CA",
+    "driving_time": "1 day 4 hours",
+    "within_driving_range": "FALSE",
+    "address": "4700 College Oak Dr, Sacramento, CA 95841, United States",
+    "lat": 38.6504101,
+    "lng": -121.3454962,
+    "application_count": 1
+  },
+  {
+    "school": "University of Pittsburgh",
+    "city,state": "Pittsburgh, PA",
+    "driving_time": "9 hours 9 mins",
+    "within_driving_range": "TRUE",
+    "address": "4200 Fifth Ave, Pittsburgh, PA 15260, United States",
+    "lat": 40.444357,
+    "lng": -79.9531478,
+    "application_count": 1
+  },
+  {
+    "school": "Jackson State University",
+    "city,state": "Jackson, MS",
+    "driving_time": "7 hours 14 mins",
+    "within_driving_range": "TRUE",
+    "address": "1400 John R. Lynch St, Jackson, MS 39217, United States",
+    "lat": 32.2978449,
+    "lng": -90.2060528,
+    "application_count": 1
+  },
+  {
+    "school": "Valencia College",
+    "city,state": "Orlando, FL",
+    "driving_time": "14 hours 18 mins",
+    "within_driving_range": "FALSE",
+    "address": "701 N Econlockhatchee Trail, Orlando, FL 32825, United States",
+    "lat": 28.553125,
+    "lng": -81.250628,
+    "application_count": 1
+  },
+  {
+    "school": "Vilnius University of Applied Sciences",
+    "city,state": "Vilnius, Lithuania",
+    "driving_time": "",
+    "within_driving_range": "FALSE",
+    "address": "Universiteto g. 3, Vilnius 01513, Lithuania",
+    "lat": 54.682713,
+    "lng": 25.285925,
+    "application_count": 1
+  },
+  {
+    "school": "University of Windsor",
+    "city,state": "",
+    "driving_time": "8 hours 14 mins",
+    "within_driving_range": "TRUE",
+    "address": "401 Sunset Ave, Windsor, ON N9B 3P4, Canada",
+    "lat": 42.307097,
+    "lng": -83.068844,
+    "application_count": 1
+  },
+  {
+    "school": "Arizona State University",
+    "city,state": "",
+    "driving_time": "20 hours 59 mins",
+    "within_driving_range": "FALSE",
+    "address": "1151 S Forest Ave, Tempe, AZ 85281",
+    "lat": 33.399358,
+    "lng": -111.956092,
+    "application_count": 1
+  },
+  {
+    "school": "Embry-Riddle Aeronautical University",
+    "city,state": "15 hours 2 mins",
+    "driving_time": "Daytona Beach, FL",
+    "within_driving_range": "FALSE",
+    "address": "600 S Clyde Morris Blvd, Daytona Beach, FL 32114, United States",
+    "lat": 29.19042,
+    "lng": -81.048895,
+    "application_count": 3
+  },
+  {
+    "school": "Benha university - Shoubra",
+    "city,state": "",
+    "driving_time": "Cairo Governorate, Egypt",
+    "within_driving_range": "FALSE",
+    "address": "Barsoum Matar, Borham, As Sahel, Cairo Governorate, Egypt",
+    "lat": 30.076972,
+    "lng": 31.240168,
+    "application_count": 1
+  }
+]

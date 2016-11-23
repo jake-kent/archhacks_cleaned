@@ -1,0 +1,37 @@
+{% extends "app_home.html" %}
+ 
+{% block title %}
+Sign In
+{% endblock %}
+
+{% block body_class %}signin{% endblock %}
+
+{% block app_home_link %}/app_home{% endblock app_home_link %}
+
+{% block form_content %}
+  <div class="signin-form">
+    {% for message in form.email.errors %}
+      <div class="flash">{{ message }}</div>
+    {% endfor %}
+     
+    {% for message in form.password.errors %}
+      <div class="flash">{{ message }}</div>
+    {% endfor %}
+     
+    <form action="{{ url_for('signin') }}" method=post>
+      {{ form.hidden_tag() }}
+       
+      <div class="label-wrapper">{{ form.email.label }}</div>
+      {{ form.email }}
+       
+      <div class="label-wrapper">{{ form.password.label }}</div>
+      {{ form.password }}
+       
+      {{ form.submit }}
+      <div class="forgot-password-link">
+        <a href="/forgot_password"><p>Forgot Password?</p></a>
+      </div>
+    </form>
+  </div>
+     
+{% endblock form_content %}
